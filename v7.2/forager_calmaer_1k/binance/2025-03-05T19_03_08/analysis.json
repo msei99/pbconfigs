@@ -1,0 +1,19 @@
+{
+    "adg": 0.009384150554510681,
+    "calmar_ratio": 0.020344898064370728,
+    "drawdown_worst": 0.46125325989933563,
+    "drawdown_worst_mean_1pct": 0.2987461833726248,
+    "equity_balance_diff_max": 0.479104310846161,
+    "equity_balance_diff_mean": 0.001381810592156378,
+    "expected_shortfall_1pct": 0.23248131861139537,
+    "gain": 1980022.3498623096,
+    "loss_profit_ratio": 0.5855041930554528,
+    "loss_profit_ratio_long": 0.5855041930554528,
+    "loss_profit_ratio_short": 1.0,
+    "mdg": 0.0,
+    "omega_ratio": 2.234513033273155,
+    "pnl_ratio_long_short": 1.0,
+    "sharpe_ratio": 0.14569183643722328,
+    "sortino_ratio": 0.15494254047584957,
+    "sterling_ratio": 0.03141178390488715
+}
