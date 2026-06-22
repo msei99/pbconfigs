@@ -1,5 +1,6 @@
 # PBGui Score Table
 
+[Open interactive score table](SCORES.html)  
 [Back to README](README.md)
 
 ## PBGui Score Overview

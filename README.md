@@ -25,9 +25,10 @@ If these configs, backtests, or PBGui itself save you time or help you improve y
 Score version: `1`  
 Results scored: `154`
 
-The complete score table is available in the wider GitHub file view:
+The complete score table is available as an interactive sortable HTML page and a Markdown fallback:
 
-[Open full score table](SCORES.md)
+[Open interactive score table](SCORES.html)  
+[Open Markdown score table](SCORES.md)
 
 Best score: `7.4` - `HYPE_adg_w_sharpe_gain_eema100_tr_twe2`
 <!-- pbgui:scores:end -->
