@@ -27,7 +27,7 @@ Results scored: `154`
 
 The complete score table is available as an interactive sortable HTML page and a Markdown fallback:
 
-[Open interactive score table](SCORES.html)  
+[Open interactive score table](https://msei99.github.io/pbconfigs/SCORES.html)  
 [Open Markdown score table](SCORES.md)
 
 Best score: `7.4` - `HYPE_adg_w_sharpe_gain_eema100_tr_twe2`

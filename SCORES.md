@@ -1,6 +1,6 @@
 # PBGui Score Table
 
-[Open interactive score table](SCORES.html)  
+[Open interactive score table](https://msei99.github.io/pbconfigs/SCORES.html)  
 [Back to README](README.md)
 
 ## PBGui Score Overview
