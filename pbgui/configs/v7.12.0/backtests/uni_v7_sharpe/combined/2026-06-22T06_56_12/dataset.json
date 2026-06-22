@@ -1,0 +1,54 @@
+{
+    "btc_usd_prices_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__AVAX_DOGE_LINK_OP_VET__2022-02-19_to_2026-06-20__43d2a310cd53e186/btc_usd_prices.npy.gz",
+    "cache_dir_label": "combined__AVAX_DOGE_LINK_OP_VET__2022-02-19_to_2026-06-20__43d2a310cd53e186",
+    "cache_hash": "43d2a310cd53e186",
+    "cache_meta_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__AVAX_DOGE_LINK_OP_VET__2022-02-19_to_2026-06-20__43d2a310cd53e186/cache_meta.json",
+    "candle_interval_minutes": 1,
+    "coin_index": {
+        "AVAX": 0,
+        "DOGE": 1,
+        "LINK": 2,
+        "OP": 3,
+        "VET": 4
+    },
+    "coins": [
+        "AVAX",
+        "DOGE",
+        "LINK",
+        "OP",
+        "VET"
+    ],
+    "coins_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__AVAX_DOGE_LINK_OP_VET__2022-02-19_to_2026-06-20__43d2a310cd53e186/coins.json",
+    "content_hashes": {
+        "btc_usd_prices": "2e37be1ae034cf835d9bc67a89f71639e9fdb01ab181f035d9a6917ba4c5a2f7",
+        "candidate_report": "5ff4218e04e13c33e42339bc06e2a3d7eccec0b47750e5a0ce8666047fc6fe25",
+        "coins": "cf29d118c63cdce156a7dce68e7a2d8d04c8169dff362af74af2952f31a07862",
+        "hlcvs": "e5e0e25127526f1c5822d1e51f62a105e85af58b6483c1cfc1c35ab1a6a7509a",
+        "market_specific_settings": "6cbac9816d11e59f730cc9da87a83c7066d6df3b2b181db47a65d3478ff2688f",
+        "timestamps": "a816df3b3cf84728eac03d6e502043631d2ad8eb40d9d0015266552758d69b74"
+    },
+    "dataset_override": false,
+    "dataset_override_meta": {},
+    "dataset_override_mode": "intersection",
+    "exchange": "combined",
+    "hlcv_cache_dir": "/home/mani/software/pb7/caches/hlcvs_data/combined__AVAX_DOGE_LINK_OP_VET__2022-02-19_to_2026-06-20__43d2a310cd53e186",
+    "hlcvs_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__AVAX_DOGE_LINK_OP_VET__2022-02-19_to_2026-06-20__43d2a310cd53e186/hlcvs.npy.gz",
+    "manifest_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__AVAX_DOGE_LINK_OP_VET__2022-02-19_to_2026-06-20__43d2a310cd53e186/manifest.json",
+    "manifest_missing": false,
+    "manifest_schema_version": 1,
+    "market_specific_settings_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__AVAX_DOGE_LINK_OP_VET__2022-02-19_to_2026-06-20__43d2a310cd53e186/market_specific_settings.json",
+    "materialization_schema_version": 1,
+    "requested_end_date": "2026-06-20",
+    "requested_start_date": "2022-03-17",
+    "side_membership": {
+        "long": [
+            "AVAX",
+            "DOGE",
+            "LINK",
+            "OP",
+            "VET"
+        ],
+        "short": []
+    },
+    "timestamps_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__AVAX_DOGE_LINK_OP_VET__2022-02-19_to_2026-06-20__43d2a310cd53e186/timestamps.npy.gz"
+}

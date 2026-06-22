@@ -1,0 +1,42 @@
+{
+    "btc_usd_prices_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__PEPE__2023-05-19_to_2026-06-20__3991231611189591/btc_usd_prices.npy.gz",
+    "cache_dir_label": "combined__PEPE__2023-05-19_to_2026-06-20__3991231611189591",
+    "cache_hash": "3991231611189591",
+    "cache_meta_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__PEPE__2023-05-19_to_2026-06-20__3991231611189591/cache_meta.json",
+    "candle_interval_minutes": 1,
+    "coin_index": {
+        "PEPE": 0
+    },
+    "coins": [
+        "PEPE"
+    ],
+    "coins_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__PEPE__2023-05-19_to_2026-06-20__3991231611189591/coins.json",
+    "content_hashes": {
+        "btc_usd_prices": "3e7a67c2bcfa62f1908249adb4ee11a49d39b4d96fda48ca2df3a92802ab5c25",
+        "candidate_report": "123cfdd94d130e5687c88f06cfd9c9cd232a03553b1c910f2054985dde49f74e",
+        "coins": "c8948581c329e8f2609bd60c475285708c73ddfa8b5e2c4f61b77fcac6556333",
+        "hlcvs": "5ea86b71b8b2a5918b41b936d9afcf239dbc02a67d1540157b3e7396a5f215e1",
+        "market_specific_settings": "4930d94549eadaed332c8677bba526606e79e8573239122f79293303521ab212",
+        "timestamps": "0c5c4569083fa52f89d3bb6a6fc3c795ae6c2b4aea6a8844597c03f90d7b4204"
+    },
+    "dataset_override": false,
+    "dataset_override_meta": {},
+    "dataset_override_mode": "intersection",
+    "exchange": "combined",
+    "hlcv_cache_dir": "/home/mani/software/pb7/caches/hlcvs_data/combined__PEPE__2023-05-19_to_2026-06-20__3991231611189591",
+    "hlcvs_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__PEPE__2023-05-19_to_2026-06-20__3991231611189591/hlcvs.npy.gz",
+    "manifest_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__PEPE__2023-05-19_to_2026-06-20__3991231611189591/manifest.json",
+    "manifest_missing": false,
+    "manifest_schema_version": 1,
+    "market_specific_settings_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__PEPE__2023-05-19_to_2026-06-20__3991231611189591/market_specific_settings.json",
+    "materialization_schema_version": 1,
+    "requested_end_date": "2026-06-20",
+    "requested_start_date": "2020-11-10",
+    "side_membership": {
+        "long": [
+            "PEPE"
+        ],
+        "short": []
+    },
+    "timestamps_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__PEPE__2023-05-19_to_2026-06-20__3991231611189591/timestamps.npy.gz"
+}

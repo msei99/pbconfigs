@@ -1,0 +1,54 @@
+{
+    "btc_usd_prices_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_HYPE_INJ_LINK_OP__2020-09-28_to_2026-06-20__62c6d3eeaf8c2fef/btc_usd_prices.npy.gz",
+    "cache_dir_label": "combined__DOGE_HYPE_INJ_LINK_OP__2020-09-28_to_2026-06-20__62c6d3eeaf8c2fef",
+    "cache_hash": "62c6d3eeaf8c2fef",
+    "cache_meta_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_HYPE_INJ_LINK_OP__2020-09-28_to_2026-06-20__62c6d3eeaf8c2fef/cache_meta.json",
+    "candle_interval_minutes": 1,
+    "coin_index": {
+        "DOGE": 0,
+        "HYPE": 1,
+        "INJ": 2,
+        "LINK": 3,
+        "OP": 4
+    },
+    "coins": [
+        "DOGE",
+        "HYPE",
+        "INJ",
+        "LINK",
+        "OP"
+    ],
+    "coins_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_HYPE_INJ_LINK_OP__2020-09-28_to_2026-06-20__62c6d3eeaf8c2fef/coins.json",
+    "content_hashes": {
+        "btc_usd_prices": "b010d2eedc30f271a28db165e197a80c9201ba7ea2bb87ced0658482e4137aab",
+        "candidate_report": "03004a968b5d80c3f478663d13abc9e067bb411e2510756f40edf8955ffc8fd3",
+        "coins": "e865c7d4a04c738775041609bf971bd791c3e5c6f58a890f536ca8722bc3f4b4",
+        "hlcvs": "7ee4f15d54eb46fafa6ed0ede009dca4e184abd60c201cd176bc8d73738da6aa",
+        "market_specific_settings": "b02da006b237f0fc25bb55a119725bea593c0da3ddbcacf56de90e2db6fc5ce3",
+        "timestamps": "0e74f842ecf4a1e5a5202806606d1ef9bd221e815bd026b2249b9b0030bef0df"
+    },
+    "dataset_override": false,
+    "dataset_override_meta": {},
+    "dataset_override_mode": "intersection",
+    "exchange": "combined",
+    "hlcv_cache_dir": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_HYPE_INJ_LINK_OP__2020-09-28_to_2026-06-20__62c6d3eeaf8c2fef",
+    "hlcvs_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_HYPE_INJ_LINK_OP__2020-09-28_to_2026-06-20__62c6d3eeaf8c2fef/hlcvs.npy.gz",
+    "manifest_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_HYPE_INJ_LINK_OP__2020-09-28_to_2026-06-20__62c6d3eeaf8c2fef/manifest.json",
+    "manifest_missing": false,
+    "manifest_schema_version": 1,
+    "market_specific_settings_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_HYPE_INJ_LINK_OP__2020-09-28_to_2026-06-20__62c6d3eeaf8c2fef/market_specific_settings.json",
+    "materialization_schema_version": 1,
+    "requested_end_date": "2026-06-20",
+    "requested_start_date": "2020-10-24",
+    "side_membership": {
+        "long": [
+            "DOGE",
+            "HYPE",
+            "INJ",
+            "LINK",
+            "OP"
+        ],
+        "short": []
+    },
+    "timestamps_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_HYPE_INJ_LINK_OP__2020-09-28_to_2026-06-20__62c6d3eeaf8c2fef/timestamps.npy.gz"
+}

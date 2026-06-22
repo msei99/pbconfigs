@@ -1,0 +1,45 @@
+{
+    "btc_usd_prices_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_SHIB__2020-08-21_to_2026-06-20__d7f11838c3ccbeed/btc_usd_prices.npy.gz",
+    "cache_dir_label": "combined__DOGE_SHIB__2020-08-21_to_2026-06-20__d7f11838c3ccbeed",
+    "cache_hash": "d7f11838c3ccbeed",
+    "cache_meta_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_SHIB__2020-08-21_to_2026-06-20__d7f11838c3ccbeed/cache_meta.json",
+    "candle_interval_minutes": 1,
+    "coin_index": {
+        "DOGE": 0,
+        "SHIB": 1
+    },
+    "coins": [
+        "DOGE",
+        "SHIB"
+    ],
+    "coins_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_SHIB__2020-08-21_to_2026-06-20__d7f11838c3ccbeed/coins.json",
+    "content_hashes": {
+        "btc_usd_prices": "7dd29820f437c80c0857548230550a0b19bf29b1bf8f5a229bd78464a5f98cb1",
+        "candidate_report": "e2f893df6693ed410ebb66629d4e24f59e86010e817c9cdb7780c14f3d4357e7",
+        "coins": "b9b730e0161230c998f15c3971f3150171bcf5c88936260db58ddbc44ba1e7fb",
+        "hlcvs": "41a5620dd8ec8803c110cf1bdf875c4df63234e339f3d52bf5200868b388de32",
+        "market_specific_settings": "3513f9395b3b99d87a23fef57bf15e9d139648412bc90e94a7520a0d9a1eede9",
+        "timestamps": "46a3d95027b8b9920885fe2ecb930fedb8700a2edaf9bba85cbdbd153960dcd2"
+    },
+    "dataset_override": false,
+    "dataset_override_meta": {},
+    "dataset_override_mode": "intersection",
+    "exchange": "combined",
+    "hlcv_cache_dir": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_SHIB__2020-08-21_to_2026-06-20__d7f11838c3ccbeed",
+    "hlcvs_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_SHIB__2020-08-21_to_2026-06-20__d7f11838c3ccbeed/hlcvs.npy.gz",
+    "manifest_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_SHIB__2020-08-21_to_2026-06-20__d7f11838c3ccbeed/manifest.json",
+    "manifest_missing": false,
+    "manifest_schema_version": 1,
+    "market_specific_settings_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_SHIB__2020-08-21_to_2026-06-20__d7f11838c3ccbeed/market_specific_settings.json",
+    "materialization_schema_version": 1,
+    "requested_end_date": "2026-06-20",
+    "requested_start_date": "2020-08-24",
+    "side_membership": {
+        "long": [
+            "DOGE",
+            "SHIB"
+        ],
+        "short": []
+    },
+    "timestamps_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_SHIB__2020-08-21_to_2026-06-20__d7f11838c3ccbeed/timestamps.npy.gz"
+}

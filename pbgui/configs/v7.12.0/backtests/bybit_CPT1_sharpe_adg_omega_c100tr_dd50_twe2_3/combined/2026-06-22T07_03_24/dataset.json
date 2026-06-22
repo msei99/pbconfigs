@@ -1,0 +1,51 @@
+{
+    "btc_usd_prices_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_ICP_SOL_VET__2021-01-08_to_2026-06-20__8519786df1c385f7/btc_usd_prices.npy.gz",
+    "cache_dir_label": "combined__DOGE_ICP_SOL_VET__2021-01-08_to_2026-06-20__8519786df1c385f7",
+    "cache_hash": "8519786df1c385f7",
+    "cache_meta_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_ICP_SOL_VET__2021-01-08_to_2026-06-20__8519786df1c385f7/cache_meta.json",
+    "candle_interval_minutes": 1,
+    "coin_index": {
+        "DOGE": 0,
+        "ICP": 1,
+        "SOL": 2,
+        "VET": 3
+    },
+    "coins": [
+        "DOGE",
+        "ICP",
+        "SOL",
+        "VET"
+    ],
+    "coins_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_ICP_SOL_VET__2021-01-08_to_2026-06-20__8519786df1c385f7/coins.json",
+    "content_hashes": {
+        "btc_usd_prices": "345714741f2f37715e4ec8e7d9d3e12293c0bd109d30ab7b5d8e6b460d504019",
+        "candidate_report": "113057dd07c52ea7881182c5f440453084c2fb7026c78451c24ee40e21c6369e",
+        "coins": "9469bfa96bd03136e479b52a48ed2e72c45823e60f5c13c8619d730b35d184da",
+        "hlcvs": "0c833dabaca5ced72ee972ddc8cf125e34351cf709d60474f2b465604328ffe9",
+        "market_specific_settings": "1a19ce327b0e1540bbe4d8d28e77bb182ba969b32a1f495568fe426d9565f87b",
+        "timestamps": "87f6b10b27e32e48273d4153607be129a291fc96b6f89c90a7bec9ac4af19f19"
+    },
+    "dataset_override": false,
+    "dataset_override_meta": {},
+    "dataset_override_mode": "intersection",
+    "exchange": "combined",
+    "hlcv_cache_dir": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_ICP_SOL_VET__2021-01-08_to_2026-06-20__8519786df1c385f7",
+    "hlcvs_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_ICP_SOL_VET__2021-01-08_to_2026-06-20__8519786df1c385f7/hlcvs.npy.gz",
+    "manifest_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_ICP_SOL_VET__2021-01-08_to_2026-06-20__8519786df1c385f7/manifest.json",
+    "manifest_missing": false,
+    "manifest_schema_version": 1,
+    "market_specific_settings_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_ICP_SOL_VET__2021-01-08_to_2026-06-20__8519786df1c385f7/market_specific_settings.json",
+    "materialization_schema_version": 1,
+    "requested_end_date": "2026-06-20",
+    "requested_start_date": "2021-02-03",
+    "side_membership": {
+        "long": [
+            "DOGE",
+            "ICP",
+            "SOL",
+            "VET"
+        ],
+        "short": []
+    },
+    "timestamps_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__DOGE_ICP_SOL_VET__2021-01-08_to_2026-06-20__8519786df1c385f7/timestamps.npy.gz"
+}

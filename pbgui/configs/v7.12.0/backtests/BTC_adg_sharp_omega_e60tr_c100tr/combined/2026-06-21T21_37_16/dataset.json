@@ -1,0 +1,42 @@
+{
+    "btc_usd_prices_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__BTC__2021-01-20_to_2026-06-20__1d420d3b0e3cede5/btc_usd_prices.npy.gz",
+    "cache_dir_label": "combined__BTC__2021-01-20_to_2026-06-20__1d420d3b0e3cede5",
+    "cache_hash": "1d420d3b0e3cede5",
+    "cache_meta_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__BTC__2021-01-20_to_2026-06-20__1d420d3b0e3cede5/cache_meta.json",
+    "candle_interval_minutes": 1,
+    "coin_index": {
+        "BTC": 0
+    },
+    "coins": [
+        "BTC"
+    ],
+    "coins_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__BTC__2021-01-20_to_2026-06-20__1d420d3b0e3cede5/coins.json",
+    "content_hashes": {
+        "btc_usd_prices": "c0ae0d399d7d9cbf7e9f78368fc1c87d2b670845e15c446371a63da8c47281c0",
+        "candidate_report": "b2872316868fe931ea596cc3dda59adf6a1e9cb5197276741899a112b290a2a8",
+        "coins": "aeff141952ace716e4cfb2ac13d672559248669f788b8df296da7ed258531755",
+        "hlcvs": "d96ed3bab87e8697bcb32cf68daa52dda0abcc57601b1100ad2f3fab29748d33",
+        "market_specific_settings": "b24d3f55aee6bb6196566923c13ec3d24df336237adbff807be08852d6c339cf",
+        "timestamps": "12a6b4e1d8af26025dafb8f1b70ffaf62f2d7f6353d6d1ba889adba9ac2820eb"
+    },
+    "dataset_override": false,
+    "dataset_override_meta": {},
+    "dataset_override_mode": "intersection",
+    "exchange": "combined",
+    "hlcv_cache_dir": "/home/mani/software/pb7/caches/hlcvs_data/combined__BTC__2021-01-20_to_2026-06-20__1d420d3b0e3cede5",
+    "hlcvs_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__BTC__2021-01-20_to_2026-06-20__1d420d3b0e3cede5/hlcvs.npy.gz",
+    "manifest_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__BTC__2021-01-20_to_2026-06-20__1d420d3b0e3cede5/manifest.json",
+    "manifest_missing": false,
+    "manifest_schema_version": 1,
+    "market_specific_settings_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__BTC__2021-01-20_to_2026-06-20__1d420d3b0e3cede5/market_specific_settings.json",
+    "materialization_schema_version": 1,
+    "requested_end_date": "2026-06-20",
+    "requested_start_date": "2021-02-15",
+    "side_membership": {
+        "long": [
+            "BTC"
+        ],
+        "short": []
+    },
+    "timestamps_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__BTC__2021-01-20_to_2026-06-20__1d420d3b0e3cede5/timestamps.npy.gz"
+}

@@ -1,0 +1,42 @@
+{
+    "btc_usd_prices_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__SHIB__2021-05-31_to_2026-06-20__72149052a5c915f0/btc_usd_prices.npy.gz",
+    "cache_dir_label": "combined__SHIB__2021-05-31_to_2026-06-20__72149052a5c915f0",
+    "cache_hash": "72149052a5c915f0",
+    "cache_meta_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__SHIB__2021-05-31_to_2026-06-20__72149052a5c915f0/cache_meta.json",
+    "candle_interval_minutes": 1,
+    "coin_index": {
+        "SHIB": 0
+    },
+    "coins": [
+        "SHIB"
+    ],
+    "coins_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__SHIB__2021-05-31_to_2026-06-20__72149052a5c915f0/coins.json",
+    "content_hashes": {
+        "btc_usd_prices": "3ce4725fcf55dd314f480ef721bfb842ecf0815061864bc365978fbdf347ad45",
+        "candidate_report": "524290c602487936e9050fb8bd0acecef100521078a1eaac8b975e3f22956563",
+        "coins": "665988b1df1a79068de29525fc3937f77709a1ebc7eba9a2bcbdf54a6527bdc0",
+        "hlcvs": "b8365d62cc55a6e35ac26e07658a79cf711e4d89d31f265f19d78059953f11b3",
+        "market_specific_settings": "f3332f066a33baf09bf23c17f5cfdb5d17c1cd64188c18cac543ba96efca3008",
+        "timestamps": "b06a269ec466c981b886aed909f88c8a35bb829d13bfd88b9b0b0c1f9ebd4d56"
+    },
+    "dataset_override": false,
+    "dataset_override_meta": {},
+    "dataset_override_mode": "intersection",
+    "exchange": "combined",
+    "hlcv_cache_dir": "/home/mani/software/pb7/caches/hlcvs_data/combined__SHIB__2021-05-31_to_2026-06-20__72149052a5c915f0",
+    "hlcvs_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__SHIB__2021-05-31_to_2026-06-20__72149052a5c915f0/hlcvs.npy.gz",
+    "manifest_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__SHIB__2021-05-31_to_2026-06-20__72149052a5c915f0/manifest.json",
+    "manifest_missing": false,
+    "manifest_schema_version": 1,
+    "market_specific_settings_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__SHIB__2021-05-31_to_2026-06-20__72149052a5c915f0/market_specific_settings.json",
+    "materialization_schema_version": 1,
+    "requested_end_date": "2026-06-20",
+    "requested_start_date": "2020-12-24",
+    "side_membership": {
+        "long": [
+            "SHIB"
+        ],
+        "short": []
+    },
+    "timestamps_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__SHIB__2021-05-31_to_2026-06-20__72149052a5c915f0/timestamps.npy.gz"
+}

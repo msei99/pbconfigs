@@ -1,0 +1,42 @@
+{
+    "btc_usd_prices_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__ETH__2020-09-06_to_2026-06-20__ec7d31b4272e9371/btc_usd_prices.npy.gz",
+    "cache_dir_label": "combined__ETH__2020-09-06_to_2026-06-20__ec7d31b4272e9371",
+    "cache_hash": "ec7d31b4272e9371",
+    "cache_meta_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__ETH__2020-09-06_to_2026-06-20__ec7d31b4272e9371/cache_meta.json",
+    "candle_interval_minutes": 1,
+    "coin_index": {
+        "ETH": 0
+    },
+    "coins": [
+        "ETH"
+    ],
+    "coins_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__ETH__2020-09-06_to_2026-06-20__ec7d31b4272e9371/coins.json",
+    "content_hashes": {
+        "btc_usd_prices": "075a6260005f4cf1100eab24be4737665768ab235c944c5a2cd1b5f50e3430be",
+        "candidate_report": "7ab5bdfd0ec60e48d1ed6ac4a3904d8aad4a79b9849bf31444c995489b3be7a1",
+        "coins": "d6ee446777bb15e307f02eb639f0151e2c9b5677fba17a3b6f072ad26d687a62",
+        "hlcvs": "a76395af3309d2c4f68307db9e5ca2cd8495874d528887beac34b7daa799249b",
+        "market_specific_settings": "4fafd5d71f81515dff43495366a2c6602cb08c8461e944b85ef88ae220df1479",
+        "timestamps": "0074d5b3823d7beab4c03120c13df27c6c81653b6cf1556250fff7b5afcefa5f"
+    },
+    "dataset_override": false,
+    "dataset_override_meta": {},
+    "dataset_override_mode": "intersection",
+    "exchange": "combined",
+    "hlcv_cache_dir": "/home/mani/software/pb7/caches/hlcvs_data/combined__ETH__2020-09-06_to_2026-06-20__ec7d31b4272e9371",
+    "hlcvs_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__ETH__2020-09-06_to_2026-06-20__ec7d31b4272e9371/hlcvs.npy.gz",
+    "manifest_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__ETH__2020-09-06_to_2026-06-20__ec7d31b4272e9371/manifest.json",
+    "manifest_missing": false,
+    "manifest_schema_version": 1,
+    "market_specific_settings_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__ETH__2020-09-06_to_2026-06-20__ec7d31b4272e9371/market_specific_settings.json",
+    "materialization_schema_version": 1,
+    "requested_end_date": "2026-06-20",
+    "requested_start_date": "2020-10-02",
+    "side_membership": {
+        "long": [
+            "ETH"
+        ],
+        "short": []
+    },
+    "timestamps_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__ETH__2020-09-06_to_2026-06-20__ec7d31b4272e9371/timestamps.npy.gz"
+}
