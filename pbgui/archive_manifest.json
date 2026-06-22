@@ -1,6 +1,6 @@
 {
     "schema_version": 1,
-    "generated_at": "2026-06-22T21:44:26Z",
+    "generated_at": "2026-06-22T22:03:03Z",
     "items": [
         {
             "type": "backtest_result",
@@ -13,7 +13,7 @@
             "result_name": "2026-06-22T00_37_24",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -26,7 +26,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -169,7 +170,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -183,7 +184,7 @@
             "result_name": "2026-06-22T07_00_19",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -196,7 +197,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -339,7 +341,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -353,7 +355,7 @@
             "result_name": "2026-06-22T07_01_54",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.4,
                 "confidence": 0.916,
                 "parts": {
@@ -364,7 +366,10 @@
                     "execution": 4.8,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown",
+                    "elevated_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -506,7 +511,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -520,7 +525,7 @@
             "result_name": "2026-06-21T20_21_26",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 5.0,
                 "confidence": 0.916,
                 "parts": {
@@ -532,7 +537,8 @@
                     "data_quality": 9.8
                 },
                 "flags": [
-                    "high_drawdown"
+                    "high_drawdown",
+                    "high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -675,7 +681,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -689,7 +695,7 @@
             "result_name": "2026-06-21T20_17_41",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -702,7 +708,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -845,7 +852,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -859,7 +866,7 @@
             "result_name": "2026-06-22T03_41_35",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 5.9,
                 "confidence": 0.916,
                 "parts": {
@@ -870,7 +877,9 @@
                     "execution": 5.0,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -1012,7 +1021,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -1026,7 +1035,7 @@
             "result_name": "2026-06-22T03_52_44",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 5.9,
                 "confidence": 0.916,
                 "parts": {
@@ -1037,7 +1046,10 @@
                     "execution": 6.1,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "moderate_drawdown",
+                    "moderate_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -1179,7 +1191,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -1193,7 +1205,7 @@
             "result_name": "2026-06-22T06_47_33",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 5.8,
                 "confidence": 0.916,
                 "parts": {
@@ -1204,7 +1216,10 @@
                     "execution": 6.2,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "moderate_drawdown",
+                    "moderate_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -1346,7 +1361,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -1360,7 +1375,7 @@
             "result_name": "2026-06-22T08_16_48",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -1372,6 +1387,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "high_equity_balance_diff",
                     "score_capped",
                     "very_high_drawdown"
                 ],
@@ -1516,7 +1532,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -1530,7 +1546,7 @@
             "result_name": "2026-06-22T08_21_17",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -1542,6 +1558,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "high_equity_balance_diff",
                     "score_capped",
                     "very_high_drawdown"
                 ],
@@ -1686,7 +1703,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -1700,7 +1717,7 @@
             "result_name": "2026-06-21T21_36_00",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.2,
                 "confidence": 0.916,
                 "parts": {
@@ -1711,7 +1728,10 @@
                     "execution": 5.6,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown",
+                    "moderate_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -1853,7 +1873,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -1867,7 +1887,7 @@
             "result_name": "2026-06-21T21_36_09",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.8,
                 "confidence": 0.916,
                 "parts": {
@@ -1878,7 +1898,10 @@
                     "execution": 4.9,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown",
+                    "moderate_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -2020,7 +2043,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -2034,7 +2057,7 @@
             "result_name": "2026-06-21T21_37_42",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.2,
                 "confidence": 0.916,
                 "parts": {
@@ -2045,7 +2068,9 @@
                     "execution": 5.0,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "moderate_drawdown"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -2187,7 +2212,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -2201,7 +2226,7 @@
             "result_name": "2026-06-21T21_32_23",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.7,
                 "confidence": 0.916,
                 "parts": {
@@ -2212,7 +2237,9 @@
                     "execution": 6.1,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "moderate_drawdown"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -2354,7 +2381,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -2368,7 +2395,7 @@
             "result_name": "2026-06-21T21_33_23",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.3,
                 "confidence": 0.916,
                 "parts": {
@@ -2379,7 +2406,10 @@
                     "execution": 6.1,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown",
+                    "moderate_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -2521,7 +2551,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -2535,7 +2565,7 @@
             "result_name": "2026-06-21T21_34_13",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.5,
                 "confidence": 0.916,
                 "parts": {
@@ -2688,7 +2718,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -2702,7 +2732,7 @@
             "result_name": "2026-06-21T21_34_21",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.6,
                 "confidence": 0.916,
                 "parts": {
@@ -2713,7 +2743,9 @@
                     "execution": 6.1,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "moderate_drawdown"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -2855,7 +2887,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -2869,7 +2901,7 @@
             "result_name": "2026-06-21T21_34_50",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.2,
                 "confidence": 0.916,
                 "parts": {
@@ -2880,7 +2912,9 @@
                     "execution": 6.0,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "moderate_drawdown"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -3022,7 +3056,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -3036,7 +3070,7 @@
             "result_name": "2026-06-21T21_35_17",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 5.8,
                 "confidence": 0.916,
                 "parts": {
@@ -3048,7 +3082,8 @@
                     "data_quality": 9.8
                 },
                 "flags": [
-                    "high_drawdown"
+                    "high_drawdown",
+                    "high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -3191,7 +3226,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -3205,7 +3240,7 @@
             "result_name": "2026-06-21T21_37_25",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.3,
                 "confidence": 0.916,
                 "parts": {
@@ -3216,7 +3251,10 @@
                     "execution": 6.1,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown",
+                    "moderate_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -3358,7 +3396,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -3372,7 +3410,7 @@
             "result_name": "2026-06-21T21_37_59",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 5.9,
                 "confidence": 0.916,
                 "parts": {
@@ -3384,7 +3422,8 @@
                     "data_quality": 9.8
                 },
                 "flags": [
-                    "high_drawdown"
+                    "high_drawdown",
+                    "high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -3527,7 +3566,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -3541,7 +3580,7 @@
             "result_name": "2026-06-21T21_33_46",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.3,
                 "confidence": 0.916,
                 "parts": {
@@ -3552,7 +3591,10 @@
                     "execution": 6.5,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown",
+                    "elevated_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -3694,7 +3736,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -3708,7 +3750,7 @@
             "result_name": "2026-06-21T21_36_24",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.5,
                 "confidence": 0.916,
                 "parts": {
@@ -3719,7 +3761,10 @@
                     "execution": 5.6,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown",
+                    "moderate_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -3861,7 +3906,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -3875,7 +3920,7 @@
             "result_name": "2026-06-21T21_36_35",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.5,
                 "confidence": 0.916,
                 "parts": {
@@ -3886,7 +3931,10 @@
                     "execution": 6.1,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "moderate_drawdown",
+                    "moderate_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -4028,7 +4076,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -4042,7 +4090,7 @@
             "result_name": "2026-06-21T21_36_45",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.4,
                 "confidence": 0.916,
                 "parts": {
@@ -4053,7 +4101,10 @@
                     "execution": 5.4,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown",
+                    "moderate_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -4195,7 +4246,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -4209,7 +4260,7 @@
             "result_name": "2026-06-21T21_37_40",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 7.0,
                 "confidence": 0.916,
                 "parts": {
@@ -4362,7 +4413,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -4376,8 +4427,8 @@
             "result_name": "2026-06-21T21_37_53",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
-                "value": 6.6,
+                "version": 2,
+                "value": 6.5,
                 "confidence": 0.916,
                 "parts": {
                     "returns": 3.1,
@@ -4387,7 +4438,10 @@
                     "execution": 6.6,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown",
+                    "score_capped"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -4529,7 +4583,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -4543,7 +4597,7 @@
             "result_name": "2026-06-21T21_25_44",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.5,
                 "confidence": 0.916,
                 "parts": {
@@ -4696,7 +4750,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -4710,8 +4764,8 @@
             "result_name": "2026-06-21T21_34_45",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
-                "value": 6.6,
+                "version": 2,
+                "value": 6.5,
                 "confidence": 0.916,
                 "parts": {
                     "returns": 2.9,
@@ -4721,7 +4775,11 @@
                     "execution": 6.1,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown",
+                    "moderate_equity_balance_diff",
+                    "score_capped"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -4863,7 +4921,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -4877,7 +4935,7 @@
             "result_name": "2026-06-21T21_35_01",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.4,
                 "confidence": 0.916,
                 "parts": {
@@ -4888,7 +4946,10 @@
                     "execution": 6.1,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown",
+                    "moderate_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -5030,7 +5091,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -5044,7 +5105,7 @@
             "result_name": "2026-06-21T21_35_45",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.6,
                 "confidence": 0.916,
                 "parts": {
@@ -5197,7 +5258,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -5211,7 +5272,7 @@
             "result_name": "2026-06-21T21_35_57",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.0,
                 "confidence": 0.916,
                 "parts": {
@@ -5223,6 +5284,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "elevated_equity_balance_diff",
                     "high_drawdown",
                     "score_capped"
                 ],
@@ -5367,7 +5429,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -5381,7 +5443,7 @@
             "result_name": "2026-06-21T21_36_59",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.4,
                 "confidence": 0.916,
                 "parts": {
@@ -5534,7 +5596,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -5548,7 +5610,7 @@
             "result_name": "2026-06-21T21_37_16",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.0,
                 "confidence": 0.916,
                 "parts": {
@@ -5559,7 +5621,10 @@
                     "execution": 5.8,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "moderate_drawdown",
+                    "moderate_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -5701,7 +5766,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -5715,7 +5780,7 @@
             "result_name": "2026-06-21T21_37_41",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.5,
                 "confidence": 0.916,
                 "parts": {
@@ -5726,7 +5791,9 @@
                     "execution": 6.5,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "moderate_drawdown"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -5868,7 +5935,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -5882,7 +5949,7 @@
             "result_name": "2026-06-21T21_37_55",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.6,
                 "confidence": 0.916,
                 "parts": {
@@ -6035,7 +6102,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -6049,7 +6116,7 @@
             "result_name": "2026-06-21T21_33_12",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 3.3,
                 "confidence": 0.916,
                 "parts": {
@@ -6061,6 +6128,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "high_equity_balance_diff",
                     "very_high_drawdown"
                 ],
                 "coverage": 0.895,
@@ -6204,7 +6272,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -6218,7 +6286,7 @@
             "result_name": "2026-06-21T21_34_31",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 3.8,
                 "confidence": 0.916,
                 "parts": {
@@ -6230,6 +6298,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "elevated_equity_balance_diff",
                     "very_high_drawdown"
                 ],
                 "coverage": 0.895,
@@ -6373,7 +6442,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -6387,7 +6456,7 @@
             "result_name": "2026-06-21T21_34_00",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 5.5,
                 "confidence": 0.916,
                 "parts": {
@@ -6398,7 +6467,9 @@
                     "execution": 5.6,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -6540,7 +6611,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -6554,7 +6625,7 @@
             "result_name": "2026-06-22T08_18_47",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -6567,7 +6638,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -6710,7 +6782,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -6724,7 +6796,7 @@
             "result_name": "2026-06-22T08_13_03",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.5,
                 "confidence": 0.916,
                 "parts": {
@@ -6735,7 +6807,10 @@
                     "execution": 7.5,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown",
+                    "elevated_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -6877,7 +6952,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -6891,7 +6966,7 @@
             "result_name": "2026-06-22T04_13_03",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 2.0,
                 "confidence": 0.916,
                 "parts": {
@@ -6904,6 +6979,7 @@
                 },
                 "flags": [
                     "extreme_drawdown",
+                    "extreme_equity_balance_diff",
                     "score_capped"
                 ],
                 "coverage": 0.895,
@@ -7047,7 +7123,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -7061,7 +7137,7 @@
             "result_name": "2026-06-22T09_07_46",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.0,
                 "confidence": 0.916,
                 "parts": {
@@ -7073,6 +7149,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "elevated_equity_balance_diff",
                     "high_drawdown",
                     "score_capped"
                 ],
@@ -7217,7 +7294,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -7231,7 +7308,7 @@
             "result_name": "2026-06-22T08_09_30",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -7243,6 +7320,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "high_equity_balance_diff",
                     "score_capped",
                     "very_high_drawdown"
                 ],
@@ -7387,7 +7465,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -7401,7 +7479,7 @@
             "result_name": "2026-06-22T00_56_56",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 2.0,
                 "confidence": 0.916,
                 "parts": {
@@ -7414,6 +7492,7 @@
                 },
                 "flags": [
                     "extreme_drawdown",
+                    "extreme_equity_balance_diff",
                     "score_capped"
                 ],
                 "coverage": 0.895,
@@ -7557,7 +7636,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -7571,7 +7650,7 @@
             "result_name": "2026-06-22T08_04_48",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -7584,7 +7663,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -7727,7 +7807,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -7741,7 +7821,7 @@
             "result_name": "2026-06-22T04_00_12",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -7754,7 +7834,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -7897,7 +7978,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -7911,7 +7992,7 @@
             "result_name": "2026-06-22T06_45_23",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 2.0,
                 "confidence": 0.916,
                 "parts": {
@@ -7924,6 +8005,7 @@
                 },
                 "flags": [
                     "extreme_drawdown",
+                    "extreme_equity_balance_diff",
                     "score_capped"
                 ],
                 "coverage": 0.895,
@@ -8067,7 +8149,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -8081,7 +8163,7 @@
             "result_name": "2026-06-21T21_33_25",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -8093,6 +8175,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "high_equity_balance_diff",
                     "score_capped",
                     "very_high_drawdown"
                 ],
@@ -8237,7 +8320,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -8251,7 +8334,7 @@
             "result_name": "2026-06-21T21_33_29",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -8264,7 +8347,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -8407,7 +8491,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -8421,7 +8505,7 @@
             "result_name": "2026-06-21T21_35_36",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 5.7,
                 "confidence": 0.916,
                 "parts": {
@@ -8433,7 +8517,8 @@
                     "data_quality": 9.8
                 },
                 "flags": [
-                    "high_drawdown"
+                    "high_drawdown",
+                    "high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -8576,7 +8661,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -8590,7 +8675,7 @@
             "result_name": "2026-06-21T21_37_18",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -8602,6 +8687,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "high_equity_balance_diff",
                     "score_capped",
                     "very_high_drawdown"
                 ],
@@ -8746,7 +8832,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -8760,7 +8846,7 @@
             "result_name": "2026-06-21T21_37_32",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -8772,6 +8858,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "high_equity_balance_diff",
                     "score_capped",
                     "very_high_drawdown"
                 ],
@@ -8916,7 +9003,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -8930,7 +9017,7 @@
             "result_name": "2026-06-22T06_46_52",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -8943,7 +9030,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -9086,7 +9174,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -9100,7 +9188,7 @@
             "result_name": "2026-06-22T03_45_11",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -9113,7 +9201,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -9256,7 +9345,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -9270,7 +9359,7 @@
             "result_name": "2026-06-22T08_13_20",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 5.6,
                 "confidence": 0.916,
                 "parts": {
@@ -9282,7 +9371,8 @@
                     "data_quality": 9.8
                 },
                 "flags": [
-                    "high_drawdown"
+                    "high_drawdown",
+                    "high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -9425,7 +9515,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -9439,7 +9529,7 @@
             "result_name": "2026-06-22T00_28_02",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.0,
                 "confidence": 0.916,
                 "parts": {
@@ -9451,6 +9541,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "elevated_equity_balance_diff",
                     "high_drawdown",
                     "score_capped"
                 ],
@@ -9595,7 +9686,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -9609,7 +9700,7 @@
             "result_name": "2026-06-22T03_41_24",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.0,
                 "confidence": 0.916,
                 "parts": {
@@ -9621,6 +9712,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "elevated_equity_balance_diff",
                     "high_drawdown",
                     "score_capped"
                 ],
@@ -9765,7 +9857,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -9779,7 +9871,7 @@
             "result_name": "2026-06-22T00_03_40",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.0,
                 "confidence": 0.916,
                 "parts": {
@@ -9792,6 +9884,7 @@
                 },
                 "flags": [
                     "high_drawdown",
+                    "high_equity_balance_diff",
                     "score_capped"
                 ],
                 "coverage": 0.895,
@@ -9935,7 +10028,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -9949,7 +10042,7 @@
             "result_name": "2026-06-22T04_12_47",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.0,
                 "confidence": 0.916,
                 "parts": {
@@ -9962,6 +10055,7 @@
                 },
                 "flags": [
                     "high_drawdown",
+                    "high_equity_balance_diff",
                     "score_capped"
                 ],
                 "coverage": 0.895,
@@ -10105,7 +10199,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -10119,8 +10213,8 @@
             "result_name": "2026-06-22T00_54_48",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
-                "value": 6.9,
+                "version": 2,
+                "value": 6.5,
                 "confidence": 0.916,
                 "parts": {
                     "returns": 2.9,
@@ -10130,7 +10224,11 @@
                     "execution": 5.4,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown",
+                    "moderate_equity_balance_diff",
+                    "score_capped"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -10272,7 +10370,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -10286,7 +10384,7 @@
             "result_name": "2026-06-21T20_24_30",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.5,
                 "confidence": 0.916,
                 "parts": {
@@ -10297,7 +10395,10 @@
                     "execution": 6.7,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "moderate_drawdown",
+                    "moderate_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -10439,7 +10540,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -10453,7 +10554,7 @@
             "result_name": "2026-06-21T20_12_03",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 7.0,
                 "confidence": 0.916,
                 "parts": {
@@ -10464,7 +10565,9 @@
                     "execution": 5.9,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "moderate_drawdown"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -10606,7 +10709,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -10620,7 +10723,7 @@
             "result_name": "2026-06-21T20_26_03",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 2.0,
                 "confidence": 0.916,
                 "parts": {
@@ -10633,6 +10736,7 @@
                 },
                 "flags": [
                     "extreme_drawdown",
+                    "extreme_equity_balance_diff",
                     "score_capped"
                 ],
                 "coverage": 0.895,
@@ -10776,7 +10880,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -10790,7 +10894,7 @@
             "result_name": "2026-06-21T20_13_28",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -10803,7 +10907,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -10946,7 +11051,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -10960,7 +11065,7 @@
             "result_name": "2026-06-21T20_08_56",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -10973,7 +11078,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -11116,7 +11222,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -11130,7 +11236,7 @@
             "result_name": "2026-06-21T20_24_17",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -11143,7 +11249,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -11286,7 +11393,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -11300,7 +11407,7 @@
             "result_name": "2026-06-21T20_30_32",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -11313,7 +11420,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -11456,7 +11564,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -11470,7 +11578,7 @@
             "result_name": "2026-06-21T20_24_15",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.0,
                 "confidence": 0.916,
                 "parts": {
@@ -11483,6 +11591,7 @@
                 },
                 "flags": [
                     "high_drawdown",
+                    "high_equity_balance_diff",
                     "score_capped"
                 ],
                 "coverage": 0.895,
@@ -11626,7 +11735,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -11640,8 +11749,8 @@
             "result_name": "2026-06-21T20_23_25",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
-                "value": 7.4,
+                "version": 2,
+                "value": 6.5,
                 "confidence": 0.916,
                 "parts": {
                     "returns": 6.5,
@@ -11651,7 +11760,11 @@
                     "execution": 6.6,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown",
+                    "elevated_equity_balance_diff",
+                    "score_capped"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -11793,7 +11906,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -11807,8 +11920,8 @@
             "result_name": "2026-06-21T20_30_24",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
-                "value": 7.3,
+                "version": 2,
+                "value": 6.5,
                 "confidence": 0.916,
                 "parts": {
                     "returns": 6.7,
@@ -11818,7 +11931,11 @@
                     "execution": 6.7,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown",
+                    "elevated_equity_balance_diff",
+                    "score_capped"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -11960,7 +12077,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -11974,7 +12091,7 @@
             "result_name": "2026-06-21T20_18_00",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.6,
                 "confidence": 0.916,
                 "parts": {
@@ -11985,7 +12102,10 @@
                     "execution": 8.3,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown",
+                    "elevated_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -12127,7 +12247,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -12141,7 +12261,7 @@
             "result_name": "2026-06-21T20_30_28",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.0,
                 "confidence": 0.916,
                 "parts": {
@@ -12154,6 +12274,7 @@
                 },
                 "flags": [
                     "high_drawdown",
+                    "high_equity_balance_diff",
                     "score_capped"
                 ],
                 "coverage": 0.895,
@@ -12297,7 +12418,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -12311,7 +12432,7 @@
             "result_name": "2026-06-21T20_23_53",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -12324,7 +12445,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -12467,7 +12589,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -12481,7 +12603,7 @@
             "result_name": "2026-06-21T20_29_31",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.6,
                 "confidence": 0.916,
                 "parts": {
@@ -12493,6 +12615,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "elevated_equity_balance_diff",
                     "high_drawdown"
                 ],
                 "coverage": 0.895,
@@ -12636,7 +12759,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -12650,7 +12773,7 @@
             "result_name": "2026-06-21T20_18_01",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 7.0,
                 "confidence": 0.916,
                 "parts": {
@@ -12803,7 +12926,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -12817,7 +12940,7 @@
             "result_name": "2026-06-21T20_21_17",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.8,
                 "confidence": 0.916,
                 "parts": {
@@ -12970,7 +13093,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -12984,7 +13107,7 @@
             "result_name": "2026-06-21T20_29_35",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.9,
                 "confidence": 0.916,
                 "parts": {
@@ -13137,7 +13260,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -13151,7 +13274,7 @@
             "result_name": "2026-06-22T08_05_06",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.0,
                 "confidence": 0.916,
                 "parts": {
@@ -13164,6 +13287,7 @@
                 },
                 "flags": [
                     "high_drawdown",
+                    "high_equity_balance_diff",
                     "score_capped"
                 ],
                 "coverage": 0.895,
@@ -13307,7 +13431,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -13321,7 +13445,7 @@
             "result_name": "2026-06-22T08_05_13",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -13334,7 +13458,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -13477,7 +13602,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -13491,7 +13616,7 @@
             "result_name": "2026-06-22T00_51_23",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.0,
                 "confidence": 0.916,
                 "parts": {
@@ -13504,6 +13629,7 @@
                 },
                 "flags": [
                     "high_drawdown",
+                    "high_equity_balance_diff",
                     "score_capped"
                 ],
                 "coverage": 0.895,
@@ -13647,7 +13773,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -13661,7 +13787,7 @@
             "result_name": "2026-06-22T06_56_13",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -13674,7 +13800,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -13817,7 +13944,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -13831,7 +13958,7 @@
             "result_name": "2026-06-22T08_21_09",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 3.0,
                 "confidence": 0.916,
                 "parts": {
@@ -13843,7 +13970,8 @@
                     "data_quality": 9.8
                 },
                 "flags": [
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -13986,7 +14114,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -14000,7 +14128,7 @@
             "result_name": "2026-06-22T06_55_54",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -14013,7 +14141,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -14156,7 +14285,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -14170,7 +14299,7 @@
             "result_name": "2026-06-22T07_02_51",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -14183,7 +14312,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -14326,7 +14456,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -14340,7 +14470,7 @@
             "result_name": "2026-06-22T00_24_43",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -14353,7 +14483,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -14496,7 +14627,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -14510,7 +14641,7 @@
             "result_name": "2026-06-22T00_17_30",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -14523,7 +14654,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -14666,7 +14798,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -14680,7 +14812,7 @@
             "result_name": "2026-06-22T08_16_26",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -14693,7 +14825,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -14836,7 +14969,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -14850,7 +14983,7 @@
             "result_name": "2026-06-22T09_09_21",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.0,
                 "confidence": 0.916,
                 "parts": {
@@ -14863,6 +14996,7 @@
                 },
                 "flags": [
                     "high_drawdown",
+                    "high_equity_balance_diff",
                     "score_capped"
                 ],
                 "coverage": 0.895,
@@ -15006,7 +15140,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -15020,7 +15154,7 @@
             "result_name": "2026-06-22T09_10_50",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.0,
                 "confidence": 0.916,
                 "parts": {
@@ -15033,6 +15167,7 @@
                 },
                 "flags": [
                     "high_drawdown",
+                    "high_equity_balance_diff",
                     "score_capped"
                 ],
                 "coverage": 0.895,
@@ -15176,7 +15311,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -15190,7 +15325,7 @@
             "result_name": "2026-06-22T00_17_35",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.0,
                 "confidence": 0.916,
                 "parts": {
@@ -15202,6 +15337,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "elevated_equity_balance_diff",
                     "high_drawdown",
                     "score_capped"
                 ],
@@ -15346,7 +15482,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -15360,7 +15496,7 @@
             "result_name": "2026-06-22T03_32_11",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.0,
                 "confidence": 0.916,
                 "parts": {
@@ -15372,6 +15508,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "elevated_equity_balance_diff",
                     "high_drawdown",
                     "score_capped"
                 ],
@@ -15516,7 +15653,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -15530,7 +15667,7 @@
             "result_name": "2026-06-22T04_00_15",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -15543,7 +15680,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -15686,7 +15824,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -15700,7 +15838,7 @@
             "result_name": "2026-06-21T20_22_46",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 5.6,
                 "confidence": 0.916,
                 "parts": {
@@ -15711,7 +15849,9 @@
                     "execution": 5.7,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "moderate_drawdown"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -15853,7 +15993,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -15867,7 +16007,7 @@
             "result_name": "2026-06-21T20_29_45",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.9,
                 "confidence": 0.916,
                 "parts": {
@@ -15879,7 +16019,8 @@
                     "data_quality": 9.8
                 },
                 "flags": [
-                    "high_drawdown"
+                    "high_drawdown",
+                    "high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -16022,7 +16163,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -16036,7 +16177,7 @@
             "result_name": "2026-06-21T20_29_34",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -16049,7 +16190,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -16192,7 +16334,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -16206,7 +16348,7 @@
             "result_name": "2026-06-22T08_11_22",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -16219,7 +16361,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -16362,7 +16505,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -16376,7 +16519,7 @@
             "result_name": "2026-06-22T08_19_16",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.5,
                 "confidence": 0.916,
                 "parts": {
@@ -16387,7 +16530,10 @@
                     "execution": 7.8,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown",
+                    "elevated_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -16529,7 +16675,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -16543,7 +16689,7 @@
             "result_name": "2026-06-22T08_09_28",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 2.0,
                 "confidence": 0.916,
                 "parts": {
@@ -16556,6 +16702,7 @@
                 },
                 "flags": [
                     "extreme_drawdown",
+                    "extreme_equity_balance_diff",
                     "score_capped"
                 ],
                 "coverage": 0.895,
@@ -16699,7 +16846,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -16713,7 +16860,7 @@
             "result_name": "2026-06-21T20_26_00",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -16726,7 +16873,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -16869,7 +17017,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -16883,7 +17031,7 @@
             "result_name": "2026-06-21T20_30_26",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 5.1,
                 "confidence": 0.916,
                 "parts": {
@@ -16895,7 +17043,8 @@
                     "data_quality": 9.8
                 },
                 "flags": [
-                    "high_drawdown"
+                    "high_drawdown",
+                    "high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -17038,7 +17187,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -17052,7 +17201,7 @@
             "result_name": "2026-06-21T20_34_21",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -17065,7 +17214,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -17208,7 +17358,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -17222,7 +17372,7 @@
             "result_name": "2026-06-21T20_34_13",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.1,
                 "confidence": 0.916,
                 "parts": {
@@ -17233,7 +17383,10 @@
                     "execution": 6.1,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "moderate_drawdown",
+                    "moderate_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -17375,7 +17528,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -17389,7 +17542,7 @@
             "result_name": "2026-06-22T07_02_56",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.6,
                 "confidence": 0.916,
                 "parts": {
@@ -17542,7 +17695,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -17556,7 +17709,7 @@
             "result_name": "2026-06-22T03_32_16",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.6,
                 "confidence": 0.916,
                 "parts": {
@@ -17567,7 +17720,10 @@
                     "execution": 6.0,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "moderate_drawdown",
+                    "moderate_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -17709,7 +17865,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -17723,7 +17879,7 @@
             "result_name": "2026-06-22T03_21_35",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.0,
                 "confidence": 0.916,
                 "parts": {
@@ -17736,6 +17892,7 @@
                 },
                 "flags": [
                     "high_drawdown",
+                    "high_equity_balance_diff",
                     "score_capped"
                 ],
                 "coverage": 0.895,
@@ -17879,7 +18036,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -17893,7 +18050,7 @@
             "result_name": "2026-06-22T04_12_41",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -17906,7 +18063,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -18049,7 +18207,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -18063,7 +18221,7 @@
             "result_name": "2026-06-22T00_21_32",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.8,
                 "confidence": 0.916,
                 "parts": {
@@ -18216,7 +18374,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -18230,7 +18388,7 @@
             "result_name": "2026-06-22T02_36_21",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.3,
                 "confidence": 0.916,
                 "parts": {
@@ -18241,7 +18399,10 @@
                     "execution": 6.8,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown",
+                    "elevated_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -18383,7 +18544,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -18397,7 +18558,7 @@
             "result_name": "2026-06-22T07_02_00",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.4,
                 "confidence": 0.916,
                 "parts": {
@@ -18408,7 +18569,10 @@
                     "execution": 6.6,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "moderate_drawdown",
+                    "moderate_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -18550,7 +18714,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -18564,8 +18728,8 @@
             "result_name": "2026-06-22T00_49_53",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
-                "value": 7.1,
+                "version": 2,
+                "value": 6.5,
                 "confidence": 0.916,
                 "parts": {
                     "returns": 3.5,
@@ -18575,7 +18739,10 @@
                     "execution": 7.1,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown",
+                    "score_capped"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -18717,7 +18884,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -18731,7 +18898,7 @@
             "result_name": "2026-06-22T00_52_16",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.6,
                 "confidence": 0.916,
                 "parts": {
@@ -18884,7 +19051,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -18898,7 +19065,7 @@
             "result_name": "2026-06-22T00_55_18",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.6,
                 "confidence": 0.916,
                 "parts": {
@@ -19051,7 +19218,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -19065,7 +19232,7 @@
             "result_name": "2026-06-22T00_38_46",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 5.4,
                 "confidence": 0.916,
                 "parts": {
@@ -19077,7 +19244,8 @@
                     "data_quality": 9.8
                 },
                 "flags": [
-                    "high_drawdown"
+                    "high_drawdown",
+                    "high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -19220,7 +19388,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -19234,7 +19402,7 @@
             "result_name": "2026-06-22T09_09_10",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -19246,6 +19414,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "high_equity_balance_diff",
                     "score_capped",
                     "very_high_drawdown"
                 ],
@@ -19390,7 +19559,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -19404,7 +19573,7 @@
             "result_name": "2026-06-22T03_59_59",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.0,
                 "confidence": 0.916,
                 "parts": {
@@ -19416,6 +19585,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "elevated_equity_balance_diff",
                     "high_drawdown",
                     "score_capped"
                 ],
@@ -19560,7 +19730,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -19574,7 +19744,7 @@
             "result_name": "2026-06-22T08_15_59",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.4,
                 "confidence": 0.916,
                 "parts": {
@@ -19585,7 +19755,10 @@
                     "execution": 6.2,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown",
+                    "elevated_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -19727,7 +19900,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -19741,7 +19914,7 @@
             "result_name": "2026-06-22T09_09_32",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -19754,7 +19927,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -19897,7 +20071,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -19911,7 +20085,7 @@
             "result_name": "2026-06-22T06_59_48",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -19924,7 +20098,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -20067,7 +20242,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -20081,7 +20256,7 @@
             "result_name": "2026-06-22T08_13_50",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -20094,7 +20269,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -20237,7 +20413,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -20251,7 +20427,7 @@
             "result_name": "2026-06-22T03_41_39",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -20264,7 +20440,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -20407,7 +20584,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -20421,7 +20598,7 @@
             "result_name": "2026-06-22T07_02_51",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 2.0,
                 "confidence": 0.916,
                 "parts": {
@@ -20434,6 +20611,7 @@
                 },
                 "flags": [
                     "extreme_drawdown",
+                    "extreme_equity_balance_diff",
                     "score_capped"
                 ],
                 "coverage": 0.895,
@@ -20577,7 +20755,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -20591,7 +20769,7 @@
             "result_name": "2026-06-22T06_48_31",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 2.0,
                 "confidence": 0.916,
                 "parts": {
@@ -20604,6 +20782,7 @@
                 },
                 "flags": [
                     "extreme_drawdown",
+                    "extreme_equity_balance_diff",
                     "score_capped"
                 ],
                 "coverage": 0.895,
@@ -20747,7 +20926,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -20761,7 +20940,7 @@
             "result_name": "2026-06-22T07_00_00",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 2.0,
                 "confidence": 0.916,
                 "parts": {
@@ -20774,6 +20953,7 @@
                 },
                 "flags": [
                     "extreme_drawdown",
+                    "extreme_equity_balance_diff",
                     "score_capped"
                 ],
                 "coverage": 0.895,
@@ -20917,7 +21097,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -20931,7 +21111,7 @@
             "result_name": "2026-06-22T07_03_24",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 2.0,
                 "confidence": 0.916,
                 "parts": {
@@ -20944,6 +21124,7 @@
                 },
                 "flags": [
                     "extreme_drawdown",
+                    "extreme_equity_balance_diff",
                     "score_capped"
                 ],
                 "coverage": 0.895,
@@ -21087,7 +21268,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -21101,7 +21282,7 @@
             "result_name": "2026-06-22T07_02_36",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 5.2,
                 "confidence": 0.916,
                 "parts": {
@@ -21113,7 +21294,8 @@
                     "data_quality": 9.8
                 },
                 "flags": [
-                    "high_drawdown"
+                    "high_drawdown",
+                    "high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -21256,7 +21438,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -21270,7 +21452,7 @@
             "result_name": "2026-06-21T20_30_18",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.0,
                 "confidence": 0.916,
                 "parts": {
@@ -21283,6 +21465,7 @@
                 },
                 "flags": [
                     "high_drawdown",
+                    "high_equity_balance_diff",
                     "score_capped"
                 ],
                 "coverage": 0.895,
@@ -21426,7 +21609,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -21440,7 +21623,7 @@
             "result_name": "2026-06-22T00_19_06",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 2.9,
                 "confidence": 0.916,
                 "parts": {
@@ -21452,7 +21635,8 @@
                     "data_quality": 9.8
                 },
                 "flags": [
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -21595,7 +21779,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -21609,7 +21793,7 @@
             "result_name": "2026-06-22T08_16_24",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.9,
                 "confidence": 0.916,
                 "parts": {
@@ -21620,7 +21804,10 @@
                     "execution": 7.1,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "moderate_drawdown",
+                    "moderate_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -21762,7 +21949,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -21776,7 +21963,7 @@
             "result_name": "2026-06-21T20_10_24",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.5,
                 "confidence": 0.916,
                 "parts": {
@@ -21787,7 +21974,10 @@
                     "execution": 7.6,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "moderate_drawdown",
+                    "moderate_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -21929,7 +22119,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -21943,7 +22133,7 @@
             "result_name": "2026-06-21T20_11_45",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.5,
                 "confidence": 0.916,
                 "parts": {
@@ -21954,7 +22144,10 @@
                     "execution": 5.1,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown",
+                    "elevated_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -22096,7 +22289,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -22110,7 +22303,7 @@
             "result_name": "2026-06-21T20_19_29",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -22123,7 +22316,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -22266,7 +22460,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -22280,7 +22474,7 @@
             "result_name": "2026-06-21T20_13_26",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 3.6,
                 "confidence": 0.916,
                 "parts": {
@@ -22292,6 +22486,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "high_equity_balance_diff",
                     "very_high_drawdown"
                 ],
                 "coverage": 0.895,
@@ -22435,7 +22630,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -22449,7 +22644,7 @@
             "result_name": "2026-06-21T20_13_31",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 3.6,
                 "confidence": 0.916,
                 "parts": {
@@ -22461,6 +22656,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "high_equity_balance_diff",
                     "very_high_drawdown"
                 ],
                 "coverage": 0.895,
@@ -22604,7 +22800,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -22618,7 +22814,7 @@
             "result_name": "2026-06-21T20_30_08",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 3.6,
                 "confidence": 0.916,
                 "parts": {
@@ -22630,6 +22826,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "high_equity_balance_diff",
                     "very_high_drawdown"
                 ],
                 "coverage": 0.895,
@@ -22773,7 +22970,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -22787,8 +22984,8 @@
             "result_name": "2026-06-21T20_34_31",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
-                "value": 6.8,
+                "version": 2,
+                "value": 6.5,
                 "confidence": 0.916,
                 "parts": {
                     "returns": 4.0,
@@ -22798,7 +22995,11 @@
                     "execution": 6.0,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown",
+                    "elevated_equity_balance_diff",
+                    "score_capped"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -22940,7 +23141,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -22954,7 +23155,7 @@
             "result_name": "2026-06-21T20_34_26",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -22967,7 +23168,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -23110,7 +23312,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -23124,7 +23326,7 @@
             "result_name": "2026-06-22T03_28_53",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 6.4,
                 "confidence": 0.916,
                 "parts": {
@@ -23135,7 +23337,10 @@
                     "execution": 4.4,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "moderate_drawdown",
+                    "moderate_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -23277,7 +23482,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -23291,7 +23496,7 @@
             "result_name": "2026-06-22T00_55_28",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 2.0,
                 "confidence": 0.916,
                 "parts": {
@@ -23304,6 +23509,7 @@
                 },
                 "flags": [
                     "extreme_drawdown",
+                    "extreme_equity_balance_diff",
                     "score_capped"
                 ],
                 "coverage": 0.895,
@@ -23447,7 +23653,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -23461,7 +23667,7 @@
             "result_name": "2026-06-22T03_32_19",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 2.0,
                 "confidence": 0.916,
                 "parts": {
@@ -23474,7 +23680,8 @@
                 },
                 "flags": [
                     "extreme_drawdown",
-                    "score_capped"
+                    "score_capped",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -23617,7 +23824,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -23631,7 +23838,7 @@
             "result_name": "2026-06-22T09_08_41",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 2.0,
                 "confidence": 0.916,
                 "parts": {
@@ -23644,6 +23851,7 @@
                 },
                 "flags": [
                     "extreme_drawdown",
+                    "extreme_equity_balance_diff",
                     "score_capped"
                 ],
                 "coverage": 0.895,
@@ -23787,7 +23995,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -23801,7 +24009,7 @@
             "result_name": "2026-06-21T21_37_01",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 2.0,
                 "confidence": 0.916,
                 "parts": {
@@ -23814,6 +24022,7 @@
                 },
                 "flags": [
                     "extreme_drawdown",
+                    "extreme_equity_balance_diff",
                     "score_capped"
                 ],
                 "coverage": 0.895,
@@ -23957,7 +24166,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -23971,7 +24180,7 @@
             "result_name": "2026-06-21T21_37_08",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -23983,6 +24192,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "high_equity_balance_diff",
                     "score_capped",
                     "very_high_drawdown"
                 ],
@@ -24127,7 +24337,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -24141,7 +24351,7 @@
             "result_name": "2026-06-21T21_38_08",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -24153,6 +24363,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "high_equity_balance_diff",
                     "score_capped",
                     "very_high_drawdown"
                 ],
@@ -24297,7 +24508,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -24311,7 +24522,7 @@
             "result_name": "2026-06-22T09_08_07",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -24324,7 +24535,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -24467,7 +24679,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -24481,7 +24693,7 @@
             "result_name": "2026-06-21T23_28_01",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -24494,7 +24706,8 @@
                 },
                 "flags": [
                     "score_capped",
-                    "very_high_drawdown"
+                    "very_high_drawdown",
+                    "very_high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -24637,7 +24850,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -24651,7 +24864,7 @@
             "result_name": "2026-06-21T20_08_37",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 5.0,
                 "confidence": 0.916,
                 "parts": {
@@ -24662,7 +24875,10 @@
                     "execution": 3.0,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "moderate_drawdown",
+                    "moderate_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -24804,7 +25020,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -24818,7 +25034,7 @@
             "result_name": "2026-06-21T20_30_16",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 5.0,
                 "confidence": 0.916,
                 "parts": {
@@ -24829,7 +25045,10 @@
                     "execution": 3.4,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "moderate_drawdown",
+                    "moderate_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -24971,7 +25190,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -24985,7 +25204,7 @@
             "result_name": "2026-06-21T20_34_11",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 5.6,
                 "confidence": 0.916,
                 "parts": {
@@ -24997,7 +25216,8 @@
                     "data_quality": 9.8
                 },
                 "flags": [
-                    "high_drawdown"
+                    "high_drawdown",
+                    "high_equity_balance_diff"
                 ],
                 "coverage": 0.895,
                 "metrics_used": [
@@ -25140,7 +25360,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -25154,7 +25374,7 @@
             "result_name": "2026-06-22T06_47_18",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -25166,6 +25386,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "high_equity_balance_diff",
                     "score_capped",
                     "very_high_drawdown"
                 ],
@@ -25310,7 +25531,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -25324,7 +25545,7 @@
             "result_name": "2026-06-22T07_02_41",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 4.0,
                 "confidence": 0.916,
                 "parts": {
@@ -25336,6 +25557,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "high_equity_balance_diff",
                     "score_capped",
                     "very_high_drawdown"
                 ],
@@ -25480,7 +25702,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -25494,7 +25716,7 @@
             "result_name": "2026-06-22T09_08_08",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 2.0,
                 "confidence": 0.916,
                 "parts": {
@@ -25507,6 +25729,7 @@
                 },
                 "flags": [
                     "extreme_drawdown",
+                    "extreme_equity_balance_diff",
                     "score_capped"
                 ],
                 "coverage": 0.895,
@@ -25650,7 +25873,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -25664,7 +25887,7 @@
             "result_name": "2026-06-22T06_56_12",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 3.7,
                 "confidence": 0.916,
                 "parts": {
@@ -25676,6 +25899,7 @@
                     "data_quality": 9.8
                 },
                 "flags": [
+                    "elevated_equity_balance_diff",
                     "high_drawdown"
                 ],
                 "coverage": 0.895,
@@ -25819,7 +26043,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         },
         {
@@ -25833,7 +26057,7 @@
             "result_name": "2026-06-21T20_28_15",
             "exchange_dir": "combined",
             "score": {
-                "version": 1,
+                "version": 2,
                 "value": 5.9,
                 "confidence": 0.916,
                 "parts": {
@@ -25844,7 +26068,10 @@
                     "execution": 3.8,
                     "data_quality": 9.8
                 },
-                "flags": [],
+                "flags": [
+                    "elevated_drawdown",
+                    "elevated_equity_balance_diff"
+                ],
                 "coverage": 0.895,
                 "metrics_used": [
                     {
@@ -25986,7 +26213,7 @@
                         "score": 0.5
                     }
                 ],
-                "calculated_at": "2026-06-22T21:44:25Z"
+                "calculated_at": "2026-06-22T22:03:01Z"
             }
         }
     ]
