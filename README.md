@@ -34,7 +34,7 @@ The complete score table is available as an interactive sortable HTML page and a
 
 | Score | Config |
 |---:|---|
-| 8.1 | [08747643f17cd434164fe941c5c3fa5acb6c8e6f31f66694644c3c98447efb63](pbgui/configs/v7.12.0/backtests/08747643f17cd434164fe941c5c3fa5acb6c8e6f31f66694644c3c98447efb63/combined/2026-06-17T15_43_03) |
+| 8.1 | [HYPE_long_short](pbgui/configs/v7.12.0/backtests/HYPE_long_short/combined/2026-06-17T15_43_03) |
 | 7.0 | [BTC_adg_sharp_omega_70trail_entry_ret](pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_70trail_entry_ret/combined/2026-06-21T21_37_40) |
 | 7.0 | [HYPE_adg_w_gpe_unchanged_shortf_eema150_72_60_40_twe2-3](pbgui/configs/v7.12.0/backtests/HYPE_adg_w_gpe_unchanged_shortf_eema150_72_60_40_twe2-3/combined/2026-06-21T20_12_03) |
 | 6.9 | [HYPE_sharpe_adg_pnl__omega_w_eema125_tr_twe5_dd4](pbgui/configs/v7.12.0/backtests/HYPE_sharpe_adg_pnl__omega_w_eema125_tr_twe5_dd4/combined/2026-06-21T20_18_01) |

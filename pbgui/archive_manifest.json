@@ -1,174 +1,7 @@
 {
     "schema_version": 1,
-    "generated_at": "2026-06-23T20:07:50Z",
+    "generated_at": "2026-06-23T21:15:16Z",
     "items": [
-        {
-            "type": "backtest_result",
-            "name": "08747643f17cd434164fe941c5c3fa5acb6c8e6f31f66694644c3c98447efb63",
-            "pb7_config_version": "v7.12.0",
-            "pbgui_version": "",
-            "path": "pbgui/configs/v7.12.0/backtests/08747643f17cd434164fe941c5c3fa5acb6c8e6f31f66694644c3c98447efb63/combined/2026-06-17T15_43_03",
-            "fingerprint": "1cf87027",
-            "modified": "2026-06-17T17:43:03.768348",
-            "result_name": "2026-06-17T15_43_03",
-            "exchange_dir": "combined",
-            "score": {
-                "version": 2,
-                "value": 8.1,
-                "confidence": 0.916,
-                "parts": {
-                    "returns": 7.1,
-                    "risk": 9.6,
-                    "ratios": 8.6,
-                    "curve": 8.2,
-                    "execution": 5.3,
-                    "data_quality": 9.8
-                },
-                "flags": [],
-                "coverage": 0.895,
-                "metrics_used": [
-                    {
-                        "label": "ADG",
-                        "key": "adg_w_usd",
-                        "value": 0.005851732825295742,
-                        "score": 1.0
-                    },
-                    {
-                        "label": "MDG",
-                        "key": "mdg_w_usd",
-                        "value": 0.0021058993960964708,
-                        "score": 1.0
-                    },
-                    {
-                        "label": "Gain",
-                        "key": "gain_usd",
-                        "value": 66.00126239438225,
-                        "score": 0.0222
-                    },
-                    {
-                        "label": "Worst Drawdown",
-                        "key": "drawdown_worst_usd",
-                        "value": 0.19912499616098828,
-                        "score": 1.0
-                    },
-                    {
-                        "label": "Expected Shortfall",
-                        "key": "expected_shortfall_1pct_usd",
-                        "value": 0.11792025487347484,
-                        "score": 0.8243
-                    },
-                    {
-                        "label": "Equity/Balance Diff",
-                        "key": "equity_balance_diff_neg_max_usd",
-                        "value": 0.19788003202055385,
-                        "score": 1.0
-                    },
-                    {
-                        "label": "Trade Loss",
-                        "key": "trade_loss_max",
-                        "value": 0.00999210169398718,
-                        "score": 0.9856
-                    },
-                    {
-                        "label": "Loss / Profit",
-                        "key": "loss_profit_ratio",
-                        "value": 0.05597109821318176,
-                        "score": 0.9598
-                    },
-                    {
-                        "label": "Sharpe",
-                        "key": "sharpe_ratio_w_usd",
-                        "value": 0.20908540234820597,
-                        "score": 1.0
-                    },
-                    {
-                        "label": "Sortino",
-                        "key": "sortino_ratio_w_usd",
-                        "value": 0.2640050313645557,
-                        "score": 1.0
-                    },
-                    {
-                        "label": "Omega",
-                        "key": "omega_ratio_w_usd",
-                        "value": 4.060297313850978,
-                        "score": 0.0955
-                    },
-                    {
-                        "label": "Calmar",
-                        "key": "calmar_ratio_w_usd",
-                        "value": 0.05162161936417624,
-                        "score": 1.0
-                    },
-                    {
-                        "label": "Sterling",
-                        "key": "sterling_ratio_w_usd",
-                        "value": 0.052184536865085326,
-                        "score": 1.0
-                    },
-                    {
-                        "label": "Win Rate",
-                        "key": "win_rate",
-                        "value": 0.9740540540540541,
-                        "score": 0.9436
-                    },
-                    {
-                        "label": "Choppiness",
-                        "key": "equity_choppiness_w_usd",
-                        "value": 1.6485032725239492,
-                        "score": 0.9868
-                    },
-                    {
-                        "label": "Jerkiness",
-                        "key": "equity_jerkiness_w_usd",
-                        "value": 0.014788038913547994,
-                        "score": 0.459
-                    },
-                    {
-                        "label": "Fit Error",
-                        "key": "exponential_fit_error_w_usd",
-                        "value": 0.005089172648130741,
-                        "score": 0.9583
-                    },
-                    {
-                        "label": "Positions / Day",
-                        "key": "positions_held_per_day",
-                        "value": 1.7708319499815404,
-                        "score": 0.1376
-                    },
-                    {
-                        "label": "Position Hold Time",
-                        "key": "position_held_hours_mean",
-                        "value": 13.257127429805616,
-                        "score": 0.5954
-                    },
-                    {
-                        "label": "Volume / Day",
-                        "key": "volume_pct_per_day_avg",
-                        "value": 1.231713256257158,
-                        "score": 0.2033
-                    },
-                    {
-                        "label": "Peak Recovery",
-                        "key": "peak_recovery_hours_equity_btc",
-                        "value": 1215.9833333333333,
-                        "score": 1.0
-                    },
-                    {
-                        "label": "High Exposure",
-                        "key": "high_exposure_hours_max_short",
-                        "value": 212.83333333333334,
-                        "score": 0.9285
-                    },
-                    {
-                        "label": "Hard Stops",
-                        "key": "hard_stop_triggers_per_year",
-                        "value": 99.18475648139048,
-                        "score": 0.0
-                    }
-                ],
-                "calculated_at": "2026-06-23T20:07:41Z"
-            }
-        },
         {
             "type": "backtest_result",
             "name": "5coin_adg_w_sharpe_gain_dd25_TWE3_fix",
@@ -176,7 +9,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/5coin_adg_w_sharpe_gain_dd25_TWE3_fix/combined/2026-06-22T00_37_24",
             "fingerprint": "b2688d2e",
-            "modified": "2026-06-23T21:16:28.679326",
+            "modified": "2026-06-22T02:37:24.444338",
             "result_name": "2026-06-22T00_37_24",
             "exchange_dir": "combined",
             "score": {
@@ -337,7 +170,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -347,7 +180,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/5coin_adg_w_sharpe_gain_dd25_TWE3_fix/combined/2026-06-22T07_00_19",
             "fingerprint": "1fd54c61",
-            "modified": "2026-06-23T21:16:28.763617",
+            "modified": "2026-06-22T09:00:19.961763",
             "result_name": "2026-06-22T07_00_19",
             "exchange_dir": "combined",
             "score": {
@@ -508,7 +341,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -518,7 +351,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/AAVE_adg_sharpe_omega_new_markup_grtr_TWE9/combined/2026-06-22T07_01_54",
             "fingerprint": "b9522812",
-            "modified": "2026-06-23T21:16:28.839547",
+            "modified": "2026-06-22T09:01:54.879769",
             "result_name": "2026-06-22T07_01_54",
             "exchange_dir": "combined",
             "score": {
@@ -678,7 +511,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -688,7 +521,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BNB_adg_w_gain_sharpe_eema150_dd4_twe2-3_tr_d5/combined/2026-06-21T20_21_26",
             "fingerprint": "e3d27ee5",
-            "modified": "2026-06-23T21:16:28.881805",
+            "modified": "2026-06-21T22:21:26.823416",
             "result_name": "2026-06-21T20_21_26",
             "exchange_dir": "combined",
             "score": {
@@ -848,7 +681,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -858,7 +691,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BNB_adg_w_gain_sharpe_eema150_dd4_twe2_tr/combined/2026-06-21T20_17_41",
             "fingerprint": "a3d4db57",
-            "modified": "2026-06-23T21:16:28.932514",
+            "modified": "2026-06-21T22:17:41.725231",
             "result_name": "2026-06-21T20_17_41",
             "exchange_dir": "combined",
             "score": {
@@ -1019,7 +852,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -1029,7 +862,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_100p_trail/combined/2026-06-22T03_41_35",
             "fingerprint": "fc42f41a",
-            "modified": "2026-06-23T21:16:29.020689",
+            "modified": "2026-06-22T05:41:35.198618",
             "result_name": "2026-06-22T03_41_35",
             "exchange_dir": "combined",
             "score": {
@@ -1188,7 +1021,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -1198,7 +1031,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_100p_trail/combined/2026-06-22T03_52_44",
             "fingerprint": "3dd977d6",
-            "modified": "2026-06-23T21:16:29.046627",
+            "modified": "2026-06-22T05:52:44.297853",
             "result_name": "2026-06-22T03_52_44",
             "exchange_dir": "combined",
             "score": {
@@ -1358,7 +1191,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -1368,7 +1201,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_100p_trail/combined/2026-06-22T06_47_33",
             "fingerprint": "3e894d34",
-            "modified": "2026-06-23T21:16:29.075628",
+            "modified": "2026-06-22T08:47:33.241877",
             "result_name": "2026-06-22T06_47_33",
             "exchange_dir": "combined",
             "score": {
@@ -1528,7 +1361,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -1538,7 +1371,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_100p_trail/combined/2026-06-22T08_16_48",
             "fingerprint": "792a0ca9",
-            "modified": "2026-06-23T21:16:29.102628",
+            "modified": "2026-06-22T10:16:48.296551",
             "result_name": "2026-06-22T08_16_48",
             "exchange_dir": "combined",
             "score": {
@@ -1699,7 +1532,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -1709,7 +1542,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_100p_trail/combined/2026-06-22T08_21_17",
             "fingerprint": "9f801465",
-            "modified": "2026-06-23T21:16:29.143630",
+            "modified": "2026-06-22T10:21:17.985298",
             "result_name": "2026-06-22T08_21_17",
             "exchange_dir": "combined",
             "score": {
@@ -1870,7 +1703,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -1880,7 +1713,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega/combined/2026-06-21T21_36_00",
             "fingerprint": "1a8b2ee8",
-            "modified": "2026-06-23T21:16:29.183360",
+            "modified": "2026-06-21T23:36:00.994833",
             "result_name": "2026-06-21T21_36_00",
             "exchange_dir": "combined",
             "score": {
@@ -2040,7 +1873,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -2050,7 +1883,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega/combined/2026-06-21T21_36_09",
             "fingerprint": "bf421531",
-            "modified": "2026-06-23T21:16:29.210632",
+            "modified": "2026-06-21T23:36:09.590788",
             "result_name": "2026-06-21T21_36_09",
             "exchange_dir": "combined",
             "score": {
@@ -2210,7 +2043,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -2220,7 +2053,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega/combined/2026-06-21T21_37_42",
             "fingerprint": "581bf883",
-            "modified": "2026-06-23T21:16:29.296635",
+            "modified": "2026-06-21T23:37:42.756339",
             "result_name": "2026-06-21T21_37_42",
             "exchange_dir": "combined",
             "score": {
@@ -2379,7 +2212,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -2389,7 +2222,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_70trail_entry/combined/2026-06-21T21_32_23",
             "fingerprint": "9b2c9869",
-            "modified": "2026-06-23T21:16:29.320147",
+            "modified": "2026-06-21T23:32:23.658585",
             "result_name": "2026-06-21T21_32_23",
             "exchange_dir": "combined",
             "score": {
@@ -2548,7 +2381,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -2558,7 +2391,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_70trail_entry/combined/2026-06-21T21_33_23",
             "fingerprint": "29c69a92",
-            "modified": "2026-06-23T21:16:29.345637",
+            "modified": "2026-06-21T23:33:23.427862",
             "result_name": "2026-06-21T21_33_23",
             "exchange_dir": "combined",
             "score": {
@@ -2718,7 +2551,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -2728,7 +2561,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_70trail_entry/combined/2026-06-21T21_34_13",
             "fingerprint": "e919c76d",
-            "modified": "2026-06-23T21:16:29.375638",
+            "modified": "2026-06-21T23:34:13.442495",
             "result_name": "2026-06-21T21_34_13",
             "exchange_dir": "combined",
             "score": {
@@ -2885,7 +2718,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -2895,7 +2728,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_70trail_entry/combined/2026-06-21T21_34_21",
             "fingerprint": "6a811378",
-            "modified": "2026-06-23T21:16:29.409639",
+            "modified": "2026-06-21T23:34:21.056349",
             "result_name": "2026-06-21T21_34_21",
             "exchange_dir": "combined",
             "score": {
@@ -3054,7 +2887,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -3064,7 +2897,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_70trail_entry/combined/2026-06-21T21_34_50",
             "fingerprint": "ef59dd82",
-            "modified": "2026-06-23T21:16:29.440640",
+            "modified": "2026-06-21T23:34:50.948737",
             "result_name": "2026-06-21T21_34_50",
             "exchange_dir": "combined",
             "score": {
@@ -3223,7 +3056,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -3233,7 +3066,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_70trail_entry/combined/2026-06-21T21_35_17",
             "fingerprint": "20474b8d",
-            "modified": "2026-06-23T21:16:29.467641",
+            "modified": "2026-06-21T23:35:17.015182",
             "result_name": "2026-06-21T21_35_17",
             "exchange_dir": "combined",
             "score": {
@@ -3393,7 +3226,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -3403,7 +3236,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_70trail_entry/combined/2026-06-21T21_37_25",
             "fingerprint": "80ba9a7e",
-            "modified": "2026-06-23T21:16:29.502642",
+            "modified": "2026-06-21T23:37:25.074592",
             "result_name": "2026-06-21T21_37_25",
             "exchange_dir": "combined",
             "score": {
@@ -3563,7 +3396,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -3573,7 +3406,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_70trail_entry/combined/2026-06-21T21_37_59",
             "fingerprint": "9ea5ac3d",
-            "modified": "2026-06-23T21:16:29.531643",
+            "modified": "2026-06-21T23:37:59.616292",
             "result_name": "2026-06-21T21_37_59",
             "exchange_dir": "combined",
             "score": {
@@ -3733,7 +3566,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -3743,7 +3576,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_70trail_entry_ret/combined/2026-06-21T21_33_46",
             "fingerprint": "756db14c",
-            "modified": "2026-06-23T21:16:29.566066",
+            "modified": "2026-06-21T23:33:46.936898",
             "result_name": "2026-06-21T21_33_46",
             "exchange_dir": "combined",
             "score": {
@@ -3903,7 +3736,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -3913,7 +3746,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_70trail_entry_ret/combined/2026-06-21T21_36_24",
             "fingerprint": "e20a8abd",
-            "modified": "2026-06-23T21:16:29.603646",
+            "modified": "2026-06-21T23:36:24.932460",
             "result_name": "2026-06-21T21_36_24",
             "exchange_dir": "combined",
             "score": {
@@ -4073,7 +3906,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -4083,7 +3916,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_70trail_entry_ret/combined/2026-06-21T21_36_35",
             "fingerprint": "d60da86d",
-            "modified": "2026-06-23T21:16:29.628646",
+            "modified": "2026-06-21T23:36:35.530343",
             "result_name": "2026-06-21T21_36_35",
             "exchange_dir": "combined",
             "score": {
@@ -4243,7 +4076,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -4253,7 +4086,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_70trail_entry_ret/combined/2026-06-21T21_36_45",
             "fingerprint": "27fe2d9d",
-            "modified": "2026-06-23T21:16:29.664648",
+            "modified": "2026-06-21T23:36:45.124484",
             "result_name": "2026-06-21T21_36_45",
             "exchange_dir": "combined",
             "score": {
@@ -4413,7 +4246,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -4423,7 +4256,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_70trail_entry_ret/combined/2026-06-21T21_37_40",
             "fingerprint": "0c8b404e",
-            "modified": "2026-06-23T21:16:29.689648",
+            "modified": "2026-06-21T23:37:40.021483",
             "result_name": "2026-06-21T21_37_40",
             "exchange_dir": "combined",
             "score": {
@@ -4580,7 +4413,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -4590,7 +4423,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_70trail_entry_ret/combined/2026-06-21T21_37_53",
             "fingerprint": "52de2089",
-            "modified": "2026-06-23T21:16:29.711649",
+            "modified": "2026-06-21T23:37:53.547516",
             "result_name": "2026-06-21T21_37_53",
             "exchange_dir": "combined",
             "score": {
@@ -4750,7 +4583,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -4760,7 +4593,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_e60tr_c100tr/combined/2026-06-21T21_25_44",
             "fingerprint": "cd1730a3",
-            "modified": "2026-06-23T21:16:29.739690",
+            "modified": "2026-06-21T23:25:44.180851",
             "result_name": "2026-06-21T21_25_44",
             "exchange_dir": "combined",
             "score": {
@@ -4917,7 +4750,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -4927,7 +4760,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_e60tr_c100tr/combined/2026-06-21T21_34_45",
             "fingerprint": "b54832f5",
-            "modified": "2026-06-23T21:16:29.758651",
+            "modified": "2026-06-21T23:34:45.246710",
             "result_name": "2026-06-21T21_34_45",
             "exchange_dir": "combined",
             "score": {
@@ -5087,7 +4920,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -5097,7 +4930,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_e60tr_c100tr/combined/2026-06-21T21_35_01",
             "fingerprint": "1475b9f9",
-            "modified": "2026-06-23T21:16:29.788652",
+            "modified": "2026-06-21T23:35:01.881957",
             "result_name": "2026-06-21T21_35_01",
             "exchange_dir": "combined",
             "score": {
@@ -5257,7 +5090,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -5267,7 +5100,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_e60tr_c100tr/combined/2026-06-21T21_35_45",
             "fingerprint": "863ed6ca",
-            "modified": "2026-06-23T21:16:29.810652",
+            "modified": "2026-06-21T23:35:45.660606",
             "result_name": "2026-06-21T21_35_45",
             "exchange_dir": "combined",
             "score": {
@@ -5424,7 +5257,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -5434,7 +5267,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_e60tr_c100tr/combined/2026-06-21T21_35_57",
             "fingerprint": "dcdc92b1",
-            "modified": "2026-06-23T21:16:29.838654",
+            "modified": "2026-06-21T23:35:57.018399",
             "result_name": "2026-06-21T21_35_57",
             "exchange_dir": "combined",
             "score": {
@@ -5595,7 +5428,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -5605,7 +5438,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_e60tr_c100tr/combined/2026-06-21T21_36_59",
             "fingerprint": "f93927a1",
-            "modified": "2026-06-23T21:16:29.868654",
+            "modified": "2026-06-21T23:36:59.519696",
             "result_name": "2026-06-21T21_36_59",
             "exchange_dir": "combined",
             "score": {
@@ -5762,7 +5595,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -5772,7 +5605,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_e60tr_c100tr/combined/2026-06-21T21_37_16",
             "fingerprint": "a734cdc3",
-            "modified": "2026-06-23T21:16:29.888655",
+            "modified": "2026-06-21T23:37:16.287574",
             "result_name": "2026-06-21T21_37_16",
             "exchange_dir": "combined",
             "score": {
@@ -5932,7 +5765,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -5942,7 +5775,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_e60tr_c100tr/combined/2026-06-21T21_37_41",
             "fingerprint": "75ba6b00",
-            "modified": "2026-06-23T21:16:29.911656",
+            "modified": "2026-06-21T23:37:41.285726",
             "result_name": "2026-06-21T21_37_41",
             "exchange_dir": "combined",
             "score": {
@@ -6101,7 +5934,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -6111,7 +5944,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_e60tr_c100tr/combined/2026-06-21T21_37_55",
             "fingerprint": "df39664d",
-            "modified": "2026-06-23T21:16:29.933657",
+            "modified": "2026-06-21T23:37:55.450517",
             "result_name": "2026-06-21T21_37_55",
             "exchange_dir": "combined",
             "score": {
@@ -6268,7 +6101,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -6278,7 +6111,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_ema0_2/combined/2026-06-21T21_33_12",
             "fingerprint": "7735e6c1",
-            "modified": "2026-06-23T21:16:29.955703",
+            "modified": "2026-06-21T23:33:12.090316",
             "result_name": "2026-06-21T21_33_12",
             "exchange_dir": "combined",
             "score": {
@@ -6438,7 +6271,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -6448,7 +6281,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_ema0_2/combined/2026-06-21T21_34_31",
             "fingerprint": "5ddfa320",
-            "modified": "2026-06-23T21:16:29.993659",
+            "modified": "2026-06-21T23:34:31.785688",
             "result_name": "2026-06-21T21_34_31",
             "exchange_dir": "combined",
             "score": {
@@ -6608,7 +6441,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -6618,7 +6451,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_ema0_2_grid_50/combined/2026-06-21T21_34_00",
             "fingerprint": "8bd1cae5",
-            "modified": "2026-06-23T21:16:30.035901",
+            "modified": "2026-06-21T23:34:00.976387",
             "result_name": "2026-06-21T21_34_00",
             "exchange_dir": "combined",
             "score": {
@@ -6777,7 +6610,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -6787,7 +6620,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_w_sharpe_gain_eema175_168_dd4_twe5/combined/2026-06-22T08_18_47",
             "fingerprint": "02df32e3",
-            "modified": "2026-06-23T21:16:30.082184",
+            "modified": "2026-06-22T10:18:47.347414",
             "result_name": "2026-06-22T08_18_47",
             "exchange_dir": "combined",
             "score": {
@@ -6948,7 +6781,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -6958,7 +6791,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_adg_w_sharpe_gain_eema200_168_dd05_twe20_ema800/combined/2026-06-22T08_13_03",
             "fingerprint": "cc3aa1e0",
-            "modified": "2026-06-23T21:16:30.111115",
+            "modified": "2026-06-22T10:13:03.271281",
             "result_name": "2026-06-22T08_13_03",
             "exchange_dir": "combined",
             "score": {
@@ -7118,7 +6951,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -7128,7 +6961,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_cpt_adg_omega_sharpe_grtr_maxdd75_eema125_dd65_ftwe25/combined/2026-06-22T04_13_03",
             "fingerprint": "847aea24",
-            "modified": "2026-06-23T21:16:30.150936",
+            "modified": "2026-06-22T06:13:03.417809",
             "result_name": "2026-06-22T04_13_03",
             "exchange_dir": "combined",
             "score": {
@@ -7289,7 +7122,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -7299,7 +7132,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_cpt_adg_omega_sharpe_grtr_maxdd75_eema2_dd65_ftwe25/combined/2026-06-22T09_07_46",
             "fingerprint": "ac3006c2",
-            "modified": "2026-06-23T21:16:30.181626",
+            "modified": "2026-06-22T11:07:46.820191",
             "result_name": "2026-06-22T09_07_46",
             "exchange_dir": "combined",
             "score": {
@@ -7460,7 +7293,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -7470,7 +7303,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/BTC_cpt_adg_omega_sharpe_grtr_maxdd7_eema2_c50/combined/2026-06-22T08_09_30",
             "fingerprint": "0b7f763b",
-            "modified": "2026-06-23T21:16:30.207582",
+            "modified": "2026-06-22T10:09:30.861171",
             "result_name": "2026-06-22T08_09_30",
             "exchange_dir": "combined",
             "score": {
@@ -7631,7 +7464,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -7641,7 +7474,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/DOGE_SOL_adg_omega_sharpe_grtr_twe20/combined/2026-06-22T00_56_56",
             "fingerprint": "7757bee3",
-            "modified": "2026-06-23T21:16:30.222528",
+            "modified": "2026-06-22T02:56:56.717159",
             "result_name": "2026-06-22T00_56_56",
             "exchange_dir": "combined",
             "score": {
@@ -7802,7 +7635,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -7812,7 +7645,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/DOGE_SOL_adg_omega_sharpe_grtr_twe20/combined/2026-06-22T08_04_48",
             "fingerprint": "ef032ce2",
-            "modified": "2026-06-23T21:16:30.310670",
+            "modified": "2026-06-22T10:04:48.820981",
             "result_name": "2026-06-22T08_04_48",
             "exchange_dir": "combined",
             "score": {
@@ -7973,7 +7806,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -7983,7 +7816,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/DOGE_adg_loss_profit_dd4/combined/2026-06-22T04_00_12",
             "fingerprint": "2fb5e39f",
-            "modified": "2026-06-23T21:16:30.401348",
+            "modified": "2026-06-22T06:00:12.965769",
             "result_name": "2026-06-22T04_00_12",
             "exchange_dir": "combined",
             "score": {
@@ -8144,7 +7977,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -8154,7 +7987,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/DOGE_adg_loss_profit_dd4/combined/2026-06-22T06_45_23",
             "fingerprint": "11fbdb4b",
-            "modified": "2026-06-23T21:16:30.442674",
+            "modified": "2026-06-22T08:45:23.749014",
             "result_name": "2026-06-22T06_45_23",
             "exchange_dir": "combined",
             "score": {
@@ -8315,7 +8148,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -8325,7 +8158,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/DOGE_adg_omega_sharpe_e75tr_c100tr/combined/2026-06-21T21_33_25",
             "fingerprint": "b77b67e3",
-            "modified": "2026-06-23T21:16:30.485587",
+            "modified": "2026-06-21T23:33:25.873420",
             "result_name": "2026-06-21T21_33_25",
             "exchange_dir": "combined",
             "score": {
@@ -8486,7 +8319,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -8496,7 +8329,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/DOGE_adg_omega_sharpe_e75tr_c100tr/combined/2026-06-21T21_33_29",
             "fingerprint": "a8babc6d",
-            "modified": "2026-06-23T21:16:30.515676",
+            "modified": "2026-06-21T23:33:29.499213",
             "result_name": "2026-06-21T21_33_29",
             "exchange_dir": "combined",
             "score": {
@@ -8657,7 +8490,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -8667,7 +8500,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/DOGE_adg_omega_sharpe_e75tr_c100tr/combined/2026-06-21T21_35_36",
             "fingerprint": "6515b9fe",
-            "modified": "2026-06-23T21:16:30.539677",
+            "modified": "2026-06-21T23:35:36.377573",
             "result_name": "2026-06-21T21_35_36",
             "exchange_dir": "combined",
             "score": {
@@ -8827,7 +8660,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -8837,7 +8670,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/DOGE_adg_omega_sharpe_e75tr_c100tr/combined/2026-06-21T21_37_18",
             "fingerprint": "a1d10ad6",
-            "modified": "2026-06-23T21:16:30.573678",
+            "modified": "2026-06-21T23:37:18.008364",
             "result_name": "2026-06-21T21_37_18",
             "exchange_dir": "combined",
             "score": {
@@ -8998,7 +8831,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -9008,7 +8841,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/DOGE_adg_omega_sharpe_e75tr_c100tr/combined/2026-06-21T21_37_32",
             "fingerprint": "80b092a5",
-            "modified": "2026-06-23T21:16:30.615680",
+            "modified": "2026-06-21T23:37:32.900851",
             "result_name": "2026-06-21T21_37_32",
             "exchange_dir": "combined",
             "score": {
@@ -9169,7 +9002,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -9179,7 +9012,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/DOGE_adg_w_sharpe_negmean_gain_lpr_w_eema125_72_twe2-4/combined/2026-06-22T06_46_52",
             "fingerprint": "1cb57463",
-            "modified": "2026-06-23T21:16:30.640577",
+            "modified": "2026-06-22T08:46:52.738180",
             "result_name": "2026-06-22T06_46_52",
             "exchange_dir": "combined",
             "score": {
@@ -9340,7 +9173,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -9350,7 +9183,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/DOGE_adg_w_sharpe_posmax_gain_eema125_72_twe3/combined/2026-06-22T03_45_11",
             "fingerprint": "767c6bf4",
-            "modified": "2026-06-23T21:16:30.692631",
+            "modified": "2026-06-22T05:45:11.481801",
             "result_name": "2026-06-22T03_45_11",
             "exchange_dir": "combined",
             "score": {
@@ -9511,7 +9344,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -9521,7 +9354,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/ETH_adg_sharpe_c100tr_twe10_dd75/combined/2026-06-22T08_13_20",
             "fingerprint": "408fc003",
-            "modified": "2026-06-23T21:16:30.759828",
+            "modified": "2026-06-22T10:13:20.777537",
             "result_name": "2026-06-22T08_13_20",
             "exchange_dir": "combined",
             "score": {
@@ -9681,7 +9514,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -9691,7 +9524,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/ETH_adg_sharpe_omega_ddw70_iema150_twe20_336/combined/2026-06-22T00_28_02",
             "fingerprint": "f249aa96",
-            "modified": "2026-06-23T21:16:30.796686",
+            "modified": "2026-06-22T02:28:02.770818",
             "result_name": "2026-06-22T00_28_02",
             "exchange_dir": "combined",
             "score": {
@@ -9852,7 +9685,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -9862,7 +9695,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/ETH_adg_sharpe_omega_ddw70_iema150_twe20_336/combined/2026-06-22T03_41_24",
             "fingerprint": "fe729ca6",
-            "modified": "2026-06-23T21:16:30.832687",
+            "modified": "2026-06-22T05:41:24.881739",
             "result_name": "2026-06-22T03_41_24",
             "exchange_dir": "combined",
             "score": {
@@ -10023,7 +9856,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -10033,7 +9866,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/ETH_adg_sharpe_omega_ddw70_iq1_iema175_twe9_168/combined/2026-06-22T00_03_40",
             "fingerprint": "16872e5a",
-            "modified": "2026-06-23T21:16:30.869950",
+            "modified": "2026-06-22T02:03:40.489819",
             "result_name": "2026-06-22T00_03_40",
             "exchange_dir": "combined",
             "score": {
@@ -10194,7 +10027,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -10204,7 +10037,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/ETH_adg_sharpe_omega_ddw70_iq1_iema175_twe9_168/combined/2026-06-22T04_12_47",
             "fingerprint": "41aa484c",
-            "modified": "2026-06-23T21:16:30.896690",
+            "modified": "2026-06-22T06:12:47.476667",
             "result_name": "2026-06-22T04_12_47",
             "exchange_dir": "combined",
             "score": {
@@ -10365,7 +10198,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -10375,7 +10208,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/ETH_only/combined/2026-06-22T00_54_48",
             "fingerprint": "affb2ee2",
-            "modified": "2026-06-23T21:16:30.927610",
+            "modified": "2026-06-22T02:54:48.541553",
             "result_name": "2026-06-22T00_54_48",
             "exchange_dir": "combined",
             "score": {
@@ -10536,7 +10369,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -10546,7 +10379,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/HYPE_adg_w_gpe_unchanged_fit_eema150_72_twe2-5/combined/2026-06-21T20_24_30",
             "fingerprint": "db5bd684",
-            "modified": "2026-06-23T21:16:30.946886",
+            "modified": "2026-06-21T22:24:30.022889",
             "result_name": "2026-06-21T20_24_30",
             "exchange_dir": "combined",
             "score": {
@@ -10706,7 +10539,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -10716,7 +10549,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/HYPE_adg_w_gpe_unchanged_shortf_eema150_72_60_40_twe2-3/combined/2026-06-21T20_12_03",
             "fingerprint": "dc05555c",
-            "modified": "2026-06-23T21:16:30.975156",
+            "modified": "2026-06-21T22:12:03.105519",
             "result_name": "2026-06-21T20_12_03",
             "exchange_dir": "combined",
             "score": {
@@ -10875,7 +10708,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -10885,7 +10718,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/HYPE_adg_w_gpe_unchanged_shortf_eema150_tr_twe2-5/combined/2026-06-21T20_26_03",
             "fingerprint": "4fc28576",
-            "modified": "2026-06-23T21:16:30.989051",
+            "modified": "2026-06-21T22:26:03.819744",
             "result_name": "2026-06-21T20_26_03",
             "exchange_dir": "combined",
             "score": {
@@ -11046,7 +10879,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -11056,7 +10889,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/HYPE_adg_w_sharpe_eema150_tr_twe2-5/combined/2026-06-21T20_13_28",
             "fingerprint": "54a7d57d",
-            "modified": "2026-06-23T21:16:31.017756",
+            "modified": "2026-06-21T22:13:28.131740",
             "result_name": "2026-06-21T20_13_28",
             "exchange_dir": "combined",
             "score": {
@@ -11217,7 +11050,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -11227,7 +11060,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/HYPE_adg_w_sharpe_gain_ddw_eema150_tr_twe2-5/combined/2026-06-21T20_08_56",
             "fingerprint": "e888f8db",
-            "modified": "2026-06-23T21:16:31.046736",
+            "modified": "2026-06-21T22:08:56.215549",
             "result_name": "2026-06-21T20_08_56",
             "exchange_dir": "combined",
             "score": {
@@ -11388,7 +11221,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -11398,7 +11231,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/HYPE_adg_w_sharpe_gain_ddw_eema150_tr_twe2-5/combined/2026-06-21T20_24_17",
             "fingerprint": "626d6347",
-            "modified": "2026-06-23T21:16:31.083696",
+            "modified": "2026-06-21T22:24:17.630897",
             "result_name": "2026-06-21T20_24_17",
             "exchange_dir": "combined",
             "score": {
@@ -11559,7 +11392,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -11569,7 +11402,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/HYPE_adg_w_sharpe_gain_ddw_eema150_tr_twe2-5/combined/2026-06-21T20_30_32",
             "fingerprint": "bfce5456",
-            "modified": "2026-06-23T21:16:31.127697",
+            "modified": "2026-06-21T22:30:32.190673",
             "result_name": "2026-06-21T20_30_32",
             "exchange_dir": "combined",
             "score": {
@@ -11730,7 +11563,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -11740,7 +11573,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/HYPE_adg_w_sharpe_gain_ddw_eema150_tr_twe2_3/combined/2026-06-21T20_24_15",
             "fingerprint": "91203ce8",
-            "modified": "2026-06-23T21:16:31.165807",
+            "modified": "2026-06-21T22:24:15.377891",
             "result_name": "2026-06-21T20_24_15",
             "exchange_dir": "combined",
             "score": {
@@ -11901,7 +11734,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -11911,7 +11744,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/HYPE_adg_w_sharpe_gain_eema100_tr_twe2/combined/2026-06-21T20_23_25",
             "fingerprint": "7589f41b",
-            "modified": "2026-06-23T21:16:31.190248",
+            "modified": "2026-06-21T22:23:25.987808",
             "result_name": "2026-06-21T20_23_25",
             "exchange_dir": "combined",
             "score": {
@@ -12072,7 +11905,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -12082,7 +11915,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/HYPE_adg_w_sharpe_gain_eema100_tr_twe2/combined/2026-06-21T20_30_24",
             "fingerprint": "ad10f5a0",
-            "modified": "2026-06-23T21:16:31.217700",
+            "modified": "2026-06-21T22:30:24.959627",
             "result_name": "2026-06-21T20_30_24",
             "exchange_dir": "combined",
             "score": {
@@ -12243,7 +12076,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -12253,7 +12086,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/HYPE_adg_w_sharpe_gain_sort_eema100_tr_twe2/combined/2026-06-21T20_18_00",
             "fingerprint": "62dcaa54",
-            "modified": "2026-06-23T21:16:31.250596",
+            "modified": "2026-06-21T22:18:00.517134",
             "result_name": "2026-06-21T20_18_00",
             "exchange_dir": "combined",
             "score": {
@@ -12413,7 +12246,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -12423,7 +12256,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/HYPE_adg_w_sharpe_gain_sort_eema100_tr_twe3/combined/2026-06-21T20_30_28",
             "fingerprint": "7355f0a0",
-            "modified": "2026-06-23T21:16:31.318031",
+            "modified": "2026-06-21T22:30:28.087614",
             "result_name": "2026-06-21T20_30_28",
             "exchange_dir": "combined",
             "score": {
@@ -12584,7 +12417,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -12594,7 +12427,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/HYPE_adg_w_sharpe_gain_sort_eema100_tr_twe5/combined/2026-06-21T20_23_53",
             "fingerprint": "4633ecbf",
-            "modified": "2026-06-23T21:16:31.340557",
+            "modified": "2026-06-21T22:23:53.663789",
             "result_name": "2026-06-21T20_23_53",
             "exchange_dir": "combined",
             "score": {
@@ -12755,7 +12588,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -12765,7 +12598,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/HYPE_adg_w_sharpe_gain_ster_eema100_tr_twe5/combined/2026-06-21T20_29_31",
             "fingerprint": "c24d1757",
-            "modified": "2026-06-23T21:16:31.366618",
+            "modified": "2026-06-21T22:29:31.936520",
             "result_name": "2026-06-21T20_29_31",
             "exchange_dir": "combined",
             "score": {
@@ -12925,7 +12758,174 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
+            }
+        },
+        {
+            "type": "backtest_result",
+            "name": "HYPE_long_short",
+            "pb7_config_version": "v7.12.0",
+            "pbgui_version": "",
+            "path": "pbgui/configs/v7.12.0/backtests/HYPE_long_short/combined/2026-06-17T15_43_03",
+            "fingerprint": "86b8ac04",
+            "modified": "2026-06-23T22:20:57.383321",
+            "result_name": "2026-06-17T15_43_03",
+            "exchange_dir": "combined",
+            "score": {
+                "version": 2,
+                "value": 8.1,
+                "confidence": 0.916,
+                "parts": {
+                    "returns": 7.1,
+                    "risk": 9.6,
+                    "ratios": 8.6,
+                    "curve": 8.2,
+                    "execution": 5.3,
+                    "data_quality": 9.8
+                },
+                "flags": [],
+                "coverage": 0.895,
+                "metrics_used": [
+                    {
+                        "label": "ADG",
+                        "key": "adg_w_usd",
+                        "value": 0.005851732825295742,
+                        "score": 1.0
+                    },
+                    {
+                        "label": "MDG",
+                        "key": "mdg_w_usd",
+                        "value": 0.0021058993960964708,
+                        "score": 1.0
+                    },
+                    {
+                        "label": "Gain",
+                        "key": "gain_usd",
+                        "value": 66.00126239438225,
+                        "score": 0.0222
+                    },
+                    {
+                        "label": "Worst Drawdown",
+                        "key": "drawdown_worst_usd",
+                        "value": 0.19912499616098828,
+                        "score": 1.0
+                    },
+                    {
+                        "label": "Expected Shortfall",
+                        "key": "expected_shortfall_1pct_usd",
+                        "value": 0.11792025487347484,
+                        "score": 0.8243
+                    },
+                    {
+                        "label": "Equity/Balance Diff",
+                        "key": "equity_balance_diff_neg_max_usd",
+                        "value": 0.19788003202055385,
+                        "score": 1.0
+                    },
+                    {
+                        "label": "Trade Loss",
+                        "key": "trade_loss_max",
+                        "value": 0.00999210169398718,
+                        "score": 0.9856
+                    },
+                    {
+                        "label": "Loss / Profit",
+                        "key": "loss_profit_ratio",
+                        "value": 0.05597109821318176,
+                        "score": 0.9598
+                    },
+                    {
+                        "label": "Sharpe",
+                        "key": "sharpe_ratio_w_usd",
+                        "value": 0.20908540234820597,
+                        "score": 1.0
+                    },
+                    {
+                        "label": "Sortino",
+                        "key": "sortino_ratio_w_usd",
+                        "value": 0.2640050313645557,
+                        "score": 1.0
+                    },
+                    {
+                        "label": "Omega",
+                        "key": "omega_ratio_w_usd",
+                        "value": 4.060297313850978,
+                        "score": 0.0955
+                    },
+                    {
+                        "label": "Calmar",
+                        "key": "calmar_ratio_w_usd",
+                        "value": 0.05162161936417624,
+                        "score": 1.0
+                    },
+                    {
+                        "label": "Sterling",
+                        "key": "sterling_ratio_w_usd",
+                        "value": 0.052184536865085326,
+                        "score": 1.0
+                    },
+                    {
+                        "label": "Win Rate",
+                        "key": "win_rate",
+                        "value": 0.9740540540540541,
+                        "score": 0.9436
+                    },
+                    {
+                        "label": "Choppiness",
+                        "key": "equity_choppiness_w_usd",
+                        "value": 1.6485032725239492,
+                        "score": 0.9868
+                    },
+                    {
+                        "label": "Jerkiness",
+                        "key": "equity_jerkiness_w_usd",
+                        "value": 0.014788038913547994,
+                        "score": 0.459
+                    },
+                    {
+                        "label": "Fit Error",
+                        "key": "exponential_fit_error_w_usd",
+                        "value": 0.005089172648130741,
+                        "score": 0.9583
+                    },
+                    {
+                        "label": "Positions / Day",
+                        "key": "positions_held_per_day",
+                        "value": 1.7708319499815404,
+                        "score": 0.1376
+                    },
+                    {
+                        "label": "Position Hold Time",
+                        "key": "position_held_hours_mean",
+                        "value": 13.257127429805616,
+                        "score": 0.5954
+                    },
+                    {
+                        "label": "Volume / Day",
+                        "key": "volume_pct_per_day_avg",
+                        "value": 1.231713256257158,
+                        "score": 0.2033
+                    },
+                    {
+                        "label": "Peak Recovery",
+                        "key": "peak_recovery_hours_equity_btc",
+                        "value": 1215.9833333333333,
+                        "score": 1.0
+                    },
+                    {
+                        "label": "High Exposure",
+                        "key": "high_exposure_hours_max_short",
+                        "value": 212.83333333333334,
+                        "score": 0.9285
+                    },
+                    {
+                        "label": "Hard Stops",
+                        "key": "hard_stop_triggers_per_year",
+                        "value": 99.18475648139048,
+                        "score": 0.0
+                    }
+                ],
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -12935,7 +12935,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/HYPE_sharpe_adg_pnl__omega_w_eema125_tr_twe5_dd4/combined/2026-06-21T20_18_01",
             "fingerprint": "a1d7750f",
-            "modified": "2026-06-23T21:16:31.416732",
+            "modified": "2026-06-21T22:18:01.980855",
             "result_name": "2026-06-21T20_18_01",
             "exchange_dir": "combined",
             "score": {
@@ -13092,7 +13092,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -13102,7 +13102,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/HYPE_sharpe_ratio_w_eema125_tr_twe5_dd4/combined/2026-06-21T20_21_17",
             "fingerprint": "61c7e4e4",
-            "modified": "2026-06-23T21:16:31.434868",
+            "modified": "2026-06-21T22:21:17.128658",
             "result_name": "2026-06-21T20_21_17",
             "exchange_dir": "combined",
             "score": {
@@ -13259,7 +13259,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -13269,7 +13269,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/HYPE_sharpe_ratio_w_eema125_tr_twe5_dd4/combined/2026-06-21T20_29_35",
             "fingerprint": "2013d7fb",
-            "modified": "2026-06-23T21:16:31.457709",
+            "modified": "2026-06-21T22:29:35.973416",
             "result_name": "2026-06-21T20_29_35",
             "exchange_dir": "combined",
             "score": {
@@ -13426,7 +13426,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -13436,7 +13436,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/LINK_adg_sharpe_omega_new_markup_grtr_TWE9/combined/2026-06-22T08_05_06",
             "fingerprint": "808a1fc7",
-            "modified": "2026-06-23T21:16:31.481216",
+            "modified": "2026-06-22T10:05:06.362447",
             "result_name": "2026-06-22T08_05_06",
             "exchange_dir": "combined",
             "score": {
@@ -13597,7 +13597,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -13607,7 +13607,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/LINK_adg_sharpe_omega_new_markup_grtr_TWE9/combined/2026-06-22T08_05_13",
             "fingerprint": "4dc90d82",
-            "modified": "2026-06-23T21:16:31.509711",
+            "modified": "2026-06-22T10:05:13.217347",
             "result_name": "2026-06-22T08_05_13",
             "exchange_dir": "combined",
             "score": {
@@ -13768,7 +13768,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -13778,7 +13778,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/NEAR_adg_sharpe_omega_new_markup_grtr_TWE9/combined/2026-06-22T00_51_23",
             "fingerprint": "5f68e72b",
-            "modified": "2026-06-23T21:16:31.541269",
+            "modified": "2026-06-22T02:51:23.848899",
             "result_name": "2026-06-22T00_51_23",
             "exchange_dir": "combined",
             "score": {
@@ -13939,7 +13939,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -13949,7 +13949,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/NEAR_adg_sharpe_omega_new_markup_grtr_TWE9/combined/2026-06-22T06_56_13",
             "fingerprint": "404f6431",
-            "modified": "2026-06-23T21:16:31.571712",
+            "modified": "2026-06-22T08:56:13.927264",
             "result_name": "2026-06-22T06_56_13",
             "exchange_dir": "combined",
             "score": {
@@ -14110,7 +14110,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -14120,7 +14120,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/NEAR_adg_sharpe_omega_twe9_trgr/combined/2026-06-22T08_21_09",
             "fingerprint": "e46450b2",
-            "modified": "2026-06-23T21:16:31.603948",
+            "modified": "2026-06-22T10:21:09.347740",
             "result_name": "2026-06-22T08_21_09",
             "exchange_dir": "combined",
             "score": {
@@ -14280,7 +14280,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -14290,7 +14290,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/PEPE_adg_w_sharpe_gain_eied175_168_ema800/combined/2026-06-22T06_55_54",
             "fingerprint": "8d6f3d66",
-            "modified": "2026-06-23T21:16:31.643367",
+            "modified": "2026-06-22T08:55:54.564291",
             "result_name": "2026-06-22T06_55_54",
             "exchange_dir": "combined",
             "score": {
@@ -14451,7 +14451,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -14461,7 +14461,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/RENDER_adg_sharpe_omega_twe9_trgr_eema125_dd04/combined/2026-06-22T07_02_51",
             "fingerprint": "947073e2",
-            "modified": "2026-06-23T21:16:31.668284",
+            "modified": "2026-06-22T09:02:51.485714",
             "result_name": "2026-06-22T07_02_51",
             "exchange_dir": "combined",
             "score": {
@@ -14622,7 +14622,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -14632,7 +14632,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/SHIB_DOGE_adg_w_sharpe_gain_eema175_168_dd4_twe5/combined/2026-06-22T00_24_43",
             "fingerprint": "110db8cd",
-            "modified": "2026-06-23T21:16:31.688734",
+            "modified": "2026-06-22T02:24:43.573589",
             "result_name": "2026-06-22T00_24_43",
             "exchange_dir": "combined",
             "score": {
@@ -14793,7 +14793,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -14803,7 +14803,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/SHIB_adg_sharpe_omega_twe9_trgr/combined/2026-06-22T00_17_30",
             "fingerprint": "d03e4f3b",
-            "modified": "2026-06-23T21:16:31.825818",
+            "modified": "2026-06-22T02:17:30.677581",
             "result_name": "2026-06-22T00_17_30",
             "exchange_dir": "combined",
             "score": {
@@ -14964,7 +14964,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -14974,7 +14974,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/SHIB_adg_sharpe_omega_twe9_trgr/combined/2026-06-22T08_16_26",
             "fingerprint": "82d614f5",
-            "modified": "2026-06-23T21:16:31.859722",
+            "modified": "2026-06-22T10:16:26.390233",
             "result_name": "2026-06-22T08_16_26",
             "exchange_dir": "combined",
             "score": {
@@ -15135,7 +15135,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -15145,7 +15145,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/SHIB_adg_sharpe_omega_twe9_trgr/combined/2026-06-22T09_09_21",
             "fingerprint": "2c86fbab",
-            "modified": "2026-06-23T21:16:31.894724",
+            "modified": "2026-06-22T11:09:21.950586",
             "result_name": "2026-06-22T09_09_21",
             "exchange_dir": "combined",
             "score": {
@@ -15306,7 +15306,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -15316,7 +15316,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/SHIB_adg_sharpe_omega_twe9_trgr/combined/2026-06-22T09_10_50",
             "fingerprint": "a082f89d",
-            "modified": "2026-06-23T21:16:31.929725",
+            "modified": "2026-06-22T11:10:50.059550",
             "result_name": "2026-06-22T09_10_50",
             "exchange_dir": "combined",
             "score": {
@@ -15477,7 +15477,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -15487,7 +15487,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/SHIB_adg_sharpe_omega_twe9_trgr_TWE2-9/combined/2026-06-22T00_17_35",
             "fingerprint": "37e1e6b8",
-            "modified": "2026-06-23T21:16:31.965969",
+            "modified": "2026-06-22T02:17:35.157638",
             "result_name": "2026-06-22T00_17_35",
             "exchange_dir": "combined",
             "score": {
@@ -15648,7 +15648,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -15658,7 +15658,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/SHIB_adg_sharpe_omega_twe9_trgr_TWE2-9/combined/2026-06-22T03_32_11",
             "fingerprint": "c343829e",
-            "modified": "2026-06-23T21:16:32.006727",
+            "modified": "2026-06-22T05:32:11.898730",
             "result_name": "2026-06-22T03_32_11",
             "exchange_dir": "combined",
             "score": {
@@ -15819,7 +15819,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -15829,7 +15829,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/SHIB_adg_sharpe_omega_twe9_trgr_TWE2-9/combined/2026-06-22T04_00_15",
             "fingerprint": "4cc5cd01",
-            "modified": "2026-06-23T21:16:32.045729",
+            "modified": "2026-06-22T06:00:15.198562",
             "result_name": "2026-06-22T04_00_15",
             "exchange_dir": "combined",
             "score": {
@@ -15990,7 +15990,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -16000,7 +16000,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/SOL_adg_w_gain_sharpe_eema150_dd2_twe2_tr/combined/2026-06-21T20_22_46",
             "fingerprint": "d55d1fc7",
-            "modified": "2026-06-23T21:16:32.086117",
+            "modified": "2026-06-21T22:22:46.384668",
             "result_name": "2026-06-21T20_22_46",
             "exchange_dir": "combined",
             "score": {
@@ -16159,7 +16159,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -16169,7 +16169,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/SOL_adg_w_gain_sharpe_eema150_twe2_tr/combined/2026-06-21T20_29_45",
             "fingerprint": "814384e1",
-            "modified": "2026-06-23T21:16:32.126833",
+            "modified": "2026-06-21T22:29:45.275362",
             "result_name": "2026-06-21T20_29_45",
             "exchange_dir": "combined",
             "score": {
@@ -16329,7 +16329,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -16339,7 +16339,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/SOL_adg_w_gain_sharpe_eema150_twe5_tr/combined/2026-06-21T20_29_34",
             "fingerprint": "1451899f",
-            "modified": "2026-06-23T21:16:32.167564",
+            "modified": "2026-06-21T22:29:34.854297",
             "result_name": "2026-06-21T20_29_34",
             "exchange_dir": "combined",
             "score": {
@@ -16500,7 +16500,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -16510,7 +16510,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/big6_adg_omega_sharpe_grtr/combined/2026-06-22T08_11_22",
             "fingerprint": "b7392bbf",
-            "modified": "2026-06-23T21:16:32.217277",
+            "modified": "2026-06-22T10:11:22.089315",
             "result_name": "2026-06-22T08_11_22",
             "exchange_dir": "combined",
             "score": {
@@ -16671,7 +16671,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -16681,7 +16681,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/big6_adg_omega_sharpe_grtr/combined/2026-06-22T08_19_16",
             "fingerprint": "40344d30",
-            "modified": "2026-06-23T21:16:32.436742",
+            "modified": "2026-06-22T10:19:16.463615",
             "result_name": "2026-06-22T08_19_16",
             "exchange_dir": "combined",
             "score": {
@@ -16841,7 +16841,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -16851,7 +16851,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/binance_5coin_adg_sharpe_new_markup_TWE2_3/combined/2026-06-22T08_09_28",
             "fingerprint": "b11aa2e3",
-            "modified": "2026-06-23T21:16:32.645749",
+            "modified": "2026-06-22T10:09:28.983631",
             "result_name": "2026-06-22T08_09_28",
             "exchange_dir": "combined",
             "score": {
@@ -17012,7 +17012,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -17022,7 +17022,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/btc_adg_w_gain_sharpe_100_dd5_TWE15_tr/combined/2026-06-21T20_26_00",
             "fingerprint": "6cbe65f2",
-            "modified": "2026-06-23T21:16:32.779218",
+            "modified": "2026-06-21T22:26:00.489536",
             "result_name": "2026-06-21T20_26_00",
             "exchange_dir": "combined",
             "score": {
@@ -17183,7 +17183,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -17193,7 +17193,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/btc_adg_w_gain_sharpe_100_dd5_TWE15_tr/combined/2026-06-21T20_30_26",
             "fingerprint": "a88d8354",
-            "modified": "2026-06-23T21:16:32.812755",
+            "modified": "2026-06-21T22:30:26.129635",
             "result_name": "2026-06-21T20_30_26",
             "exchange_dir": "combined",
             "score": {
@@ -17353,7 +17353,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -17363,7 +17363,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/btc_adg_w_gain_sharpe_100_dd5_TWE15_tr/combined/2026-06-21T20_34_21",
             "fingerprint": "d41d72c0",
-            "modified": "2026-06-23T21:16:32.847756",
+            "modified": "2026-06-21T22:34:21.939278",
             "result_name": "2026-06-21T20_34_21",
             "exchange_dir": "combined",
             "score": {
@@ -17524,7 +17524,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -17534,7 +17534,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/btc_adg_w_gain_sharpe_100_dd5_TWE2-10_tr/combined/2026-06-21T20_34_13",
             "fingerprint": "081f3e28",
-            "modified": "2026-06-23T21:16:32.883702",
+            "modified": "2026-06-21T22:34:13.798216",
             "result_name": "2026-06-21T20_34_13",
             "exchange_dir": "combined",
             "score": {
@@ -17694,7 +17694,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -17704,7 +17704,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/btc_adg_w_sharpe_chop_gain_125_dd55_TWE9_fix/combined/2026-06-22T07_02_56",
             "fingerprint": "60472332",
-            "modified": "2026-06-23T21:16:32.906106",
+            "modified": "2026-06-22T09:02:56.379827",
             "result_name": "2026-06-22T07_02_56",
             "exchange_dir": "combined",
             "score": {
@@ -17861,7 +17861,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -17871,7 +17871,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/btc_adg_w_sharpe_chop_gain_dd40_TWE15_fix/combined/2026-06-22T03_32_16",
             "fingerprint": "adf0cfc6",
-            "modified": "2026-06-23T21:16:32.929575",
+            "modified": "2026-06-22T05:32:16.516454",
             "result_name": "2026-06-22T03_32_16",
             "exchange_dir": "combined",
             "score": {
@@ -18031,7 +18031,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -18041,7 +18041,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/btc_adg_w_sharpe_drawdown_dd4_TWE9_fix/combined/2026-06-22T03_21_35",
             "fingerprint": "3edfdd8d",
-            "modified": "2026-06-23T21:16:32.949854",
+            "modified": "2026-06-22T05:21:35.648688",
             "result_name": "2026-06-22T03_21_35",
             "exchange_dir": "combined",
             "score": {
@@ -18202,7 +18202,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -18212,7 +18212,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/btc_adg_w_sharpe_fit_gain_mdg_dd40_TWE15_fix/combined/2026-06-22T04_12_41",
             "fingerprint": "3d177dc6",
-            "modified": "2026-06-23T21:16:32.971586",
+            "modified": "2026-06-22T06:12:41.700590",
             "result_name": "2026-06-22T04_12_41",
             "exchange_dir": "combined",
             "score": {
@@ -18373,7 +18373,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -18383,7 +18383,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/btc_adg_w_sharpe_gain_dd4_TWE9_fix/combined/2026-06-22T00_21_32",
             "fingerprint": "7da4d5b2",
-            "modified": "2026-06-23T21:16:32.995202",
+            "modified": "2026-06-22T02:21:32.534815",
             "result_name": "2026-06-22T00_21_32",
             "exchange_dir": "combined",
             "score": {
@@ -18540,7 +18540,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -18550,7 +18550,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/btc_adg_w_sharpe_negmean_gain_125_dd55_TWE15_fix/combined/2026-06-22T02_36_21",
             "fingerprint": "aa9ab4c5",
-            "modified": "2026-06-23T21:16:33.022778",
+            "modified": "2026-06-22T04:36:21.376380",
             "result_name": "2026-06-22T02_36_21",
             "exchange_dir": "combined",
             "score": {
@@ -18710,7 +18710,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -18720,7 +18720,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/btc_adg_w_sharpe_negmean_gain_125_dd55_TWE15_fix/combined/2026-06-22T07_02_00",
             "fingerprint": "b5e55d7e",
-            "modified": "2026-06-23T21:16:33.044763",
+            "modified": "2026-06-22T09:02:00.567876",
             "result_name": "2026-06-22T07_02_00",
             "exchange_dir": "combined",
             "score": {
@@ -18880,7 +18880,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -18890,7 +18890,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/btc_adg_w_sharpe_negmean_jerk_gain_125_dd55_TWE10-25/combined/2026-06-22T00_49_53",
             "fingerprint": "6c42541b",
-            "modified": "2026-06-23T21:16:33.069105",
+            "modified": "2026-06-22T02:49:53.783644",
             "result_name": "2026-06-22T00_49_53",
             "exchange_dir": "combined",
             "score": {
@@ -19050,7 +19050,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -19060,7 +19060,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/btc_adg_w_sharpe_shortfal_gain_dd40_TWE12_fix/combined/2026-06-22T00_52_16",
             "fingerprint": "db994993",
-            "modified": "2026-06-23T21:16:33.083715",
+            "modified": "2026-06-22T02:52:16.452592",
             "result_name": "2026-06-22T00_52_16",
             "exchange_dir": "combined",
             "score": {
@@ -19217,7 +19217,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -19227,7 +19227,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/btc_adg_w_sharpe_shortfal_gain_dd40_TWE12_fix/combined/2026-06-22T00_55_18",
             "fingerprint": "4ea3da19",
-            "modified": "2026-06-23T21:16:33.106765",
+            "modified": "2026-06-22T02:55:18.729186",
             "result_name": "2026-06-22T00_55_18",
             "exchange_dir": "combined",
             "score": {
@@ -19384,7 +19384,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -19394,7 +19394,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/btc_adg_w_sharpe_w_negmean_lpr_gain_100_dd5_TWE10-25/combined/2026-06-22T00_38_46",
             "fingerprint": "ed7671f2",
-            "modified": "2026-06-23T21:16:33.131371",
+            "modified": "2026-06-22T02:38:46.012683",
             "result_name": "2026-06-22T00_38_46",
             "exchange_dir": "combined",
             "score": {
@@ -19554,7 +19554,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -19564,7 +19564,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/btc_adg_w_sharpe_w_posmean_lpr_gain_100_dd5_TWE10-25/combined/2026-06-22T09_09_10",
             "fingerprint": "436742dc",
-            "modified": "2026-06-23T21:16:33.169308",
+            "modified": "2026-06-22T11:09:10.121258",
             "result_name": "2026-06-22T09_09_10",
             "exchange_dir": "combined",
             "score": {
@@ -19725,7 +19725,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -19735,7 +19735,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/btc_mdg_w_sharpe_100_dd5_TWE10-25/combined/2026-06-22T03_59_59",
             "fingerprint": "67b036ff",
-            "modified": "2026-06-23T21:16:33.238181",
+            "modified": "2026-06-22T05:59:59.724638",
             "result_name": "2026-06-22T03_59_59",
             "exchange_dir": "combined",
             "score": {
@@ -19896,7 +19896,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -19906,7 +19906,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/btc_mdg_w_sharpe_100_dd5_TWE10-25/combined/2026-06-22T08_15_59",
             "fingerprint": "00606fb5",
-            "modified": "2026-06-23T21:16:33.292771",
+            "modified": "2026-06-22T10:15:59.365841",
             "result_name": "2026-06-22T08_15_59",
             "exchange_dir": "combined",
             "score": {
@@ -20066,7 +20066,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -20076,7 +20076,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/btc_mdg_w_sharpe_100_dd5_TWE10-25/combined/2026-06-22T09_09_32",
             "fingerprint": "a07134f9",
-            "modified": "2026-06-23T21:16:33.347773",
+            "modified": "2026-06-22T11:09:32.535540",
             "result_name": "2026-06-22T09_09_32",
             "exchange_dir": "combined",
             "score": {
@@ -20237,7 +20237,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -20247,7 +20247,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/bybit_CPT1_adg_lpr_c75tr_dd50_twe3_dd10/combined/2026-06-22T06_59_48",
             "fingerprint": "931ed23b",
-            "modified": "2026-06-23T21:16:33.410793",
+            "modified": "2026-06-22T08:59:48.733266",
             "result_name": "2026-06-22T06_59_48",
             "exchange_dir": "combined",
             "score": {
@@ -20408,7 +20408,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -20418,7 +20418,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/bybit_CPT1_adg_lpr_c75tr_dd50_twe3_dd10/combined/2026-06-22T08_13_50",
             "fingerprint": "e1e2a912",
-            "modified": "2026-06-23T21:16:33.566781",
+            "modified": "2026-06-22T10:13:50.852975",
             "result_name": "2026-06-22T08_13_50",
             "exchange_dir": "combined",
             "score": {
@@ -20579,7 +20579,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -20589,7 +20589,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/bybit_CPT1_sharpe_adg_c100tr_dd50_twe2_3/combined/2026-06-22T03_41_39",
             "fingerprint": "9bcfa719",
-            "modified": "2026-06-23T21:16:33.745970",
+            "modified": "2026-06-22T05:41:39.483844",
             "result_name": "2026-06-22T03_41_39",
             "exchange_dir": "combined",
             "score": {
@@ -20750,7 +20750,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -20760,7 +20760,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/bybit_CPT1_sharpe_adg_c100tr_dd50_twe2_3/combined/2026-06-22T07_02_51",
             "fingerprint": "69f6326e",
-            "modified": "2026-06-23T21:16:34.125800",
+            "modified": "2026-06-22T09:02:51.583431",
             "result_name": "2026-06-22T07_02_51",
             "exchange_dir": "combined",
             "score": {
@@ -20921,7 +20921,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -20931,7 +20931,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/bybit_CPT1_sharpe_adg_omega_100tr_dd50_twe2_3/combined/2026-06-22T06_48_31",
             "fingerprint": "8cb3c659",
-            "modified": "2026-06-23T21:16:34.469204",
+            "modified": "2026-06-22T08:48:31.346563",
             "result_name": "2026-06-22T06_48_31",
             "exchange_dir": "combined",
             "score": {
@@ -21092,7 +21092,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -21102,7 +21102,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/bybit_CPT1_sharpe_adg_omega_100tr_dd50_twe2_3/combined/2026-06-22T07_00_00",
             "fingerprint": "cd919251",
-            "modified": "2026-06-23T21:16:34.714820",
+            "modified": "2026-06-22T09:00:00.358567",
             "result_name": "2026-06-22T07_00_00",
             "exchange_dir": "combined",
             "score": {
@@ -21263,7 +21263,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -21273,7 +21273,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/bybit_CPT1_sharpe_adg_omega_c100tr_dd50_twe2_3/combined/2026-06-22T07_03_24",
             "fingerprint": "4f3d653b",
-            "modified": "2026-06-23T21:16:34.977636",
+            "modified": "2026-06-22T09:03:24.089968",
             "result_name": "2026-06-22T07_03_24",
             "exchange_dir": "combined",
             "score": {
@@ -21434,7 +21434,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -21444,7 +21444,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/eth/combined/2026-06-22T07_02_36",
             "fingerprint": "3196d0d8",
-            "modified": "2026-06-23T21:16:35.266534",
+            "modified": "2026-06-22T09:02:36.548472",
             "result_name": "2026-06-22T07_02_36",
             "exchange_dir": "combined",
             "score": {
@@ -21604,7 +21604,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -21614,7 +21614,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/eth_adg_w_gain_heldmax_gain_100_dd4_TWE2-10_65_35/combined/2026-06-21T20_30_18",
             "fingerprint": "e62c9638",
-            "modified": "2026-06-23T21:16:35.308282",
+            "modified": "2026-06-21T22:30:18.762314",
             "result_name": "2026-06-21T20_30_18",
             "exchange_dir": "combined",
             "score": {
@@ -21774,7 +21774,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -21784,7 +21784,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/eth_adg_w_gain_heldmean_100_dd3_TWE5-20/combined/2026-06-22T00_19_06",
             "fingerprint": "3dfc10ea",
-            "modified": "2026-06-23T21:16:35.382653",
+            "modified": "2026-06-22T02:19:06.622839",
             "result_name": "2026-06-22T00_19_06",
             "exchange_dir": "combined",
             "score": {
@@ -21944,7 +21944,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -21954,7 +21954,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/eth_adg_w_gain_heldmean_125_dd3_TWE5-20/combined/2026-06-22T08_16_24",
             "fingerprint": "9f55c16f",
-            "modified": "2026-06-23T21:16:35.449877",
+            "modified": "2026-06-22T10:16:24.109200",
             "result_name": "2026-06-22T08_16_24",
             "exchange_dir": "combined",
             "score": {
@@ -22114,7 +22114,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -22124,7 +22124,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/eth_adg_w_gain_heldmean_gain_125_dd4_TWE2-10_65_35/combined/2026-06-21T20_10_24",
             "fingerprint": "dfebcac4",
-            "modified": "2026-06-23T21:16:35.507612",
+            "modified": "2026-06-21T22:10:24.134456",
             "result_name": "2026-06-21T20_10_24",
             "exchange_dir": "combined",
             "score": {
@@ -22284,7 +22284,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -22294,7 +22294,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/eth_adg_w_gain_negmean_gpe_100_dd4_TWE2-10_tronly/combined/2026-06-21T20_11_45",
             "fingerprint": "ed526e74",
-            "modified": "2026-06-23T21:16:35.627040",
+            "modified": "2026-06-21T22:11:45.164370",
             "result_name": "2026-06-21T20_11_45",
             "exchange_dir": "combined",
             "score": {
@@ -22454,7 +22454,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -22464,7 +22464,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/eth_adg_w_gain_omega_sharpe_gain_125_dd3_TWE5-20_65_35/combined/2026-06-21T20_19_29",
             "fingerprint": "d09a70f0",
-            "modified": "2026-06-23T21:16:35.679168",
+            "modified": "2026-06-21T22:19:29.688804",
             "result_name": "2026-06-21T20_19_29",
             "exchange_dir": "combined",
             "score": {
@@ -22625,7 +22625,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -22635,7 +22635,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/eth_adg_w_gain_sharpe_100_dd3_TWE2-2_5_tr/combined/2026-06-21T20_13_26",
             "fingerprint": "50d48d19",
-            "modified": "2026-06-23T21:16:35.749330",
+            "modified": "2026-06-21T22:13:26.386766",
             "result_name": "2026-06-21T20_13_26",
             "exchange_dir": "combined",
             "score": {
@@ -22795,7 +22795,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -22805,7 +22805,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/eth_adg_w_gain_sharpe_100_dd3_TWE2-2_5_tr/combined/2026-06-21T20_13_31",
             "fingerprint": "05567676",
-            "modified": "2026-06-23T21:16:35.799857",
+            "modified": "2026-06-21T22:13:31.023368",
             "result_name": "2026-06-21T20_13_31",
             "exchange_dir": "combined",
             "score": {
@@ -22965,7 +22965,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -22975,7 +22975,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/eth_adg_w_gain_sharpe_100_dd3_TWE2-2_5_tr/combined/2026-06-21T20_30_08",
             "fingerprint": "72a7bdef",
-            "modified": "2026-06-23T21:16:35.851858",
+            "modified": "2026-06-21T22:30:08.376524",
             "result_name": "2026-06-21T20_30_08",
             "exchange_dir": "combined",
             "score": {
@@ -23135,7 +23135,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -23145,7 +23145,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/eth_adg_w_gain_unchange_100_dd4_TWE2-10_60_40/combined/2026-06-21T20_34_31",
             "fingerprint": "d3840617",
-            "modified": "2026-06-23T21:16:35.904642",
+            "modified": "2026-06-21T22:34:31.047500",
             "result_name": "2026-06-21T20_34_31",
             "exchange_dir": "combined",
             "score": {
@@ -23306,7 +23306,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -23316,7 +23316,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/eth_adg_w_gain_unchange_100_dd4_TWE2-10_tr/combined/2026-06-21T20_34_26",
             "fingerprint": "218a9d0f",
-            "modified": "2026-06-23T21:16:35.940844",
+            "modified": "2026-06-21T22:34:26.771620",
             "result_name": "2026-06-21T20_34_26",
             "exchange_dir": "combined",
             "score": {
@@ -23477,7 +23477,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -23487,7 +23487,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/eth_adg_w_sharpe_w_posmean_lpr_gain_100_dd3_TWE5-20/combined/2026-06-22T03_28_53",
             "fingerprint": "b528e881",
-            "modified": "2026-06-23T21:16:35.971873",
+            "modified": "2026-06-22T05:28:53.019766",
             "result_name": "2026-06-22T03_28_53",
             "exchange_dir": "combined",
             "score": {
@@ -23647,7 +23647,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -23657,7 +23657,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/eth_sharp-adg_omega_100tr/combined/2026-06-22T00_55_28",
             "fingerprint": "09949d9b",
-            "modified": "2026-06-23T21:16:36.006077",
+            "modified": "2026-06-22T02:55:28.808622",
             "result_name": "2026-06-22T00_55_28",
             "exchange_dir": "combined",
             "score": {
@@ -23818,7 +23818,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -23828,7 +23828,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/eth_sharp-adg_omega_100tr/combined/2026-06-22T03_32_19",
             "fingerprint": "aa5272d3",
-            "modified": "2026-06-23T21:16:36.050865",
+            "modified": "2026-06-22T05:32:19.881769",
             "result_name": "2026-06-22T03_32_19",
             "exchange_dir": "combined",
             "score": {
@@ -23989,7 +23989,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -23999,7 +23999,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/eth_sharp-adg_omega_100tr/combined/2026-06-22T09_08_41",
             "fingerprint": "3102d66e",
-            "modified": "2026-06-23T21:16:36.094867",
+            "modified": "2026-06-22T11:08:41.584627",
             "result_name": "2026-06-22T09_08_41",
             "exchange_dir": "combined",
             "score": {
@@ -24160,7 +24160,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -24170,7 +24170,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/eth_sharp-adg_omega_70trail/combined/2026-06-21T21_37_01",
             "fingerprint": "ff953810",
-            "modified": "2026-06-23T21:16:36.140634",
+            "modified": "2026-06-21T23:37:01.763372",
             "result_name": "2026-06-21T21_37_01",
             "exchange_dir": "combined",
             "score": {
@@ -24331,7 +24331,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -24341,7 +24341,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/eth_sharp-adg_omega_70trail/combined/2026-06-21T21_37_08",
             "fingerprint": "2ebaa6b7",
-            "modified": "2026-06-23T21:16:36.175869",
+            "modified": "2026-06-21T23:37:08.391323",
             "result_name": "2026-06-21T21_37_08",
             "exchange_dir": "combined",
             "score": {
@@ -24502,7 +24502,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -24512,7 +24512,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/eth_sharp-adg_omega_70trail/combined/2026-06-21T21_38_08",
             "fingerprint": "2474c000",
-            "modified": "2026-06-23T21:16:36.212871",
+            "modified": "2026-06-21T23:38:08.799419",
             "result_name": "2026-06-21T21_38_08",
             "exchange_dir": "combined",
             "score": {
@@ -24673,7 +24673,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -24683,7 +24683,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/forager_trailing_adg_gain/combined/2026-06-22T09_08_07",
             "fingerprint": "73f8ef66",
-            "modified": "2026-06-23T21:16:36.250872",
+            "modified": "2026-06-22T11:08:07.395902",
             "result_name": "2026-06-22T09_08_07",
             "exchange_dir": "combined",
             "score": {
@@ -24844,7 +24844,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -24854,7 +24854,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/forager_trailing_sharp_gain/combined/2026-06-21T23_28_01",
             "fingerprint": "dce95010",
-            "modified": "2026-06-23T21:16:36.619329",
+            "modified": "2026-06-22T01:28:01.490180",
             "result_name": "2026-06-21T23_28_01",
             "exchange_dir": "combined",
             "score": {
@@ -25015,7 +25015,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -25025,7 +25025,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/pro_adg_pnl_sharpe_100_dd4_TWE3_tr/combined/2026-06-21T20_08_37",
             "fingerprint": "012cc95b",
-            "modified": "2026-06-23T21:16:37.106856",
+            "modified": "2026-06-21T22:08:37.895568",
             "result_name": "2026-06-21T20_08_37",
             "exchange_dir": "combined",
             "score": {
@@ -25185,7 +25185,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -25195,7 +25195,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/pro_adg_pnl_sharpe_100_dd4_TWE3_tr/combined/2026-06-21T20_30_16",
             "fingerprint": "70c469b3",
-            "modified": "2026-06-23T21:16:37.160903",
+            "modified": "2026-06-21T22:30:16.377870",
             "result_name": "2026-06-21T20_30_16",
             "exchange_dir": "combined",
             "score": {
@@ -25355,7 +25355,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -25365,7 +25365,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/pro_adg_w_gain_sharpe_100_dd4_TWE2_5_tr/combined/2026-06-21T20_34_11",
             "fingerprint": "c7f9bf1a",
-            "modified": "2026-06-23T21:16:37.217829",
+            "modified": "2026-06-21T22:34:11.873202",
             "result_name": "2026-06-21T20_34_11",
             "exchange_dir": "combined",
             "score": {
@@ -25525,7 +25525,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -25535,7 +25535,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/sol_sharp-adg_omega_100tr/combined/2026-06-22T06_47_18",
             "fingerprint": "96a895c7",
-            "modified": "2026-06-23T21:16:37.270780",
+            "modified": "2026-06-22T08:47:18.592233",
             "result_name": "2026-06-22T06_47_18",
             "exchange_dir": "combined",
             "score": {
@@ -25696,7 +25696,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -25706,7 +25706,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/sol_sharp-adg_omega_100tr/combined/2026-06-22T07_02_41",
             "fingerprint": "df8a0cf4",
-            "modified": "2026-06-23T21:16:37.314908",
+            "modified": "2026-06-22T09:02:41.297576",
             "result_name": "2026-06-22T07_02_41",
             "exchange_dir": "combined",
             "score": {
@@ -25867,7 +25867,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -25877,7 +25877,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/sol_sharp-adg_omega_100tr/combined/2026-06-22T09_08_08",
             "fingerprint": "cda64886",
-            "modified": "2026-06-23T21:16:37.384911",
+            "modified": "2026-06-22T11:08:08.941470",
             "result_name": "2026-06-22T09_08_08",
             "exchange_dir": "combined",
             "score": {
@@ -26038,7 +26038,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -26048,7 +26048,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/uni_v7_sharpe/combined/2026-06-22T06_56_12",
             "fingerprint": "4d995b3d",
-            "modified": "2026-06-23T21:16:37.458913",
+            "modified": "2026-06-22T08:56:12.631827",
             "result_name": "2026-06-22T06_56_12",
             "exchange_dir": "combined",
             "score": {
@@ -26208,7 +26208,7 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
         },
         {
@@ -26218,7 +26218,7 @@
             "pbgui_version": "",
             "path": "pbgui/configs/v7.12.0/backtests/woof_adg_w_gain_sharpe_100_dd4_TWE2-3_tr/combined/2026-06-21T20_28_15",
             "fingerprint": "81b847cb",
-            "modified": "2026-06-23T21:16:37.511285",
+            "modified": "2026-06-21T22:28:15.372576",
             "result_name": "2026-06-21T20_28_15",
             "exchange_dir": "combined",
             "score": {
@@ -26378,8 +26378,18 @@
                         "score": 1.0
                     }
                 ],
-                "calculated_at": "2026-06-23T20:07:41Z"
+                "calculated_at": "2026-06-23T21:15:15Z"
             }
+        },
+        {
+            "type": "optimize_config",
+            "name": "sl_bt_twe_target",
+            "pb7_config_version": "v7.12.0",
+            "pbgui_version": "",
+            "path": "pbgui/configs/v7.12.0/optimize/sl_bt_twe_target.json",
+            "fingerprint": "ce9ef6e5",
+            "created_at": "2026-06-23T04:21:15Z",
+            "modified": "2026-06-23T06:21:15.202744"
         }
     ]
 }
