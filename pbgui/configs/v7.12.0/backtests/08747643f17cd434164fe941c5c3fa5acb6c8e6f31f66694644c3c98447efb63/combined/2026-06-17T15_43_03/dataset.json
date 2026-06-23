@@ -1,0 +1,42 @@
+{
+    "btc_usd_prices_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__HYPE__2025-01-04_to_2026-06-12__3d562dfbacb32562/btc_usd_prices.npy.gz",
+    "cache_dir_label": "combined__HYPE__2025-01-04_to_2026-06-12__3d562dfbacb32562",
+    "cache_hash": "3d562dfbacb32562",
+    "cache_meta_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__HYPE__2025-01-04_to_2026-06-12__3d562dfbacb32562/cache_meta.json",
+    "candle_interval_minutes": 1,
+    "coin_index": {
+        "HYPE": 0
+    },
+    "coins": [
+        "HYPE"
+    ],
+    "coins_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__HYPE__2025-01-04_to_2026-06-12__3d562dfbacb32562/coins.json",
+    "content_hashes": {
+        "btc_usd_prices": "128802e8eac91e8de79b6473e540efae26fb0640b543bdc40fd038601d3b6e48",
+        "candidate_report": "101cc91a5c358317b97b9dfea376b02ba8e11c64a274f1dd7f23b1408f6d99b5",
+        "coins": "443320afbd6439629634291a244c0780837725180019a7840243906475fc6ed0",
+        "hlcvs": "49f9cc9c5ce143dc7e27f3b2ccf324fd4f5c99c3a064e1bbaa732cfff118d70e",
+        "market_specific_settings": "dbda2c757b49d658cf567cb438994bc8314646374fe56647d60fd39f1964f9b3",
+        "timestamps": "a24409d1731889c044e10f826e62c19f07a0a46749204550ea1453f73919565d"
+    },
+    "dataset_override": false,
+    "dataset_override_meta": {},
+    "dataset_override_mode": "intersection",
+    "exchange": "combined",
+    "hlcv_cache_dir": "/home/mani/software/pb7/caches/hlcvs_data/combined__HYPE__2025-01-04_to_2026-06-12__3d562dfbacb32562",
+    "hlcvs_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__HYPE__2025-01-04_to_2026-06-12__3d562dfbacb32562/hlcvs.npy.gz",
+    "manifest_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__HYPE__2025-01-04_to_2026-06-12__3d562dfbacb32562/manifest.json",
+    "manifest_missing": false,
+    "manifest_schema_version": 1,
+    "market_specific_settings_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__HYPE__2025-01-04_to_2026-06-12__3d562dfbacb32562/market_specific_settings.json",
+    "materialization_schema_version": 1,
+    "requested_end_date": "2026-06-12",
+    "requested_start_date": "2020-01-01",
+    "side_membership": {
+        "long": [
+            "HYPE"
+        ],
+        "short": []
+    },
+    "timestamps_file": "/home/mani/software/pb7/caches/hlcvs_data/combined__HYPE__2025-01-04_to_2026-06-12__3d562dfbacb32562/timestamps.npy.gz"
+}
