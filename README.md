@@ -23,7 +23,7 @@ If these configs, backtests, or PBGui itself save you time or help you improve y
 ## PBGui Score Overview
 
 Score version: `2`  
-Results scored: `157`
+Results scored: `161`
 
 The complete score table is available as an interactive sortable HTML page and a Markdown fallback:
 
@@ -34,14 +34,14 @@ The complete score table is available as an interactive sortable HTML page and a
 
 | Score | Config |
 |---:|---|
-| 8.2 | [HYPE_long_short](pbgui/configs/v7.12.0/backtests/HYPE_long_short/combined/2026-06-17T15_43_03) |
+| 8.1 | [HYPE_long_short](pbgui/configs/v7.12.0/backtests/HYPE_long_short/combined/2026-06-17T15_43_03) |
 | 7.0 | [BTC_adg_sharp_omega_70trail_entry_ret](pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_70trail_entry_ret/combined/2026-06-21T21_37_40) |
 | 7.0 | [HYPE_adg_w_gpe_unchanged_shortf_eema150_72_60_40_twe2-3](pbgui/configs/v7.12.0/backtests/HYPE_adg_w_gpe_unchanged_shortf_eema150_72_60_40_twe2-3/combined/2026-06-21T20_12_03) |
 | 7.0 | [HYPE_sharpe_adg_pnl__omega_w_eema125_tr_twe5_dd4](pbgui/configs/v7.12.0/backtests/HYPE_sharpe_adg_pnl__omega_w_eema125_tr_twe5_dd4/combined/2026-06-21T20_18_01) |
 | 6.9 | [HYPE_sharpe_ratio_w_eema125_tr_twe5_dd4](pbgui/configs/v7.12.0/backtests/HYPE_sharpe_ratio_w_eema125_tr_twe5_dd4/combined/2026-06-21T20_29_35) |
 | 6.9 | [eth_adg_w_gain_heldmean_125_dd3_TWE5-20](pbgui/configs/v7.12.0/backtests/eth_adg_w_gain_heldmean_125_dd3_TWE5-20/combined/2026-06-22T08_16_24) |
+| 6.8 | [HYPE_sharpe_ratio_w_eema125_tr_twe5_dd4](pbgui/configs/v7.12.0/backtests/HYPE_sharpe_ratio_w_eema125_tr_twe5_dd4/combined/2026-06-21T20_21_17) |
 | 6.8 | [btc_adg_w_sharpe_gain_dd4_TWE9_fix](pbgui/configs/v7.12.0/backtests/btc_adg_w_sharpe_gain_dd4_TWE9_fix/combined/2026-06-22T00_21_32) |
 | 6.8 | [f5965a5121c77bac09b553e75855e88f3295bdd6e1a62810690a5930b787674e](pbgui/configs/v7.12.0/backtests/f5965a5121c77bac09b553e75855e88f3295bdd6e1a62810690a5930b787674e/combined/2026-06-23T09_07_42) |
-| 6.7 | [881e2a475a7dbab4112642236f700d0b0dab8ab5f8edfeb2df1779e78199c3a0](pbgui/configs/v7.12.0/backtests/881e2a475a7dbab4112642236f700d0b0dab8ab5f8edfeb2df1779e78199c3a0/combined/2026-06-25T15_46_17) |
-| 6.7 | [BTC_adg_sharp_omega_70trail_entry](pbgui/configs/v7.12.0/backtests/BTC_adg_sharp_omega_70trail_entry/combined/2026-06-21T21_32_23) |
+| 6.7 | [06876d1d11e31249cbf96105f94a9ebd1c75020c1ac34033943535bb91d3f04d](pbgui/configs/v7.12.0/backtests/06876d1d11e31249cbf96105f94a9ebd1c75020c1ac34033943535bb91d3f04d/combined/2026-06-29T07_58_56) |
 <!-- pbgui:scores:end -->
