@@ -23,7 +23,7 @@ If these configs, backtests, or PBGui itself save you time or help you improve y
 ## PBGui Score Overview
 
 Score version: `2`  
-Results scored: `167`
+Results scored: `171`
 
 The complete score table is available as an interactive sortable HTML page and a Markdown fallback:
 
