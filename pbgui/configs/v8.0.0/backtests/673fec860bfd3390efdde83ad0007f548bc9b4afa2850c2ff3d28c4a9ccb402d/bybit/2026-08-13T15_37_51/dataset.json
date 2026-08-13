@@ -1,0 +1,52 @@
+{
+    "btc_usd_prices_file": "/home/mani/software/pb8/caches/hlcvs_data/bybit__HYPE__2024-12-05_to_2026-08-13__ea3e1d6c5d35bfb7/btc_usd_prices.npy.gz",
+    "cache_build_side_membership": {
+        "long": [
+            "HYPE"
+        ],
+        "short": []
+    },
+    "cache_dir_label": "bybit__HYPE__2024-12-05_to_2026-08-13__ea3e1d6c5d35bfb7",
+    "cache_hash": "ea3e1d6c5d35bfb7",
+    "cache_meta_file": "/home/mani/software/pb8/caches/hlcvs_data/bybit__HYPE__2024-12-05_to_2026-08-13__ea3e1d6c5d35bfb7/cache_meta.json",
+    "candle_interval_minutes": 1,
+    "coin_index": {
+        "HYPE": 0
+    },
+    "coins": [
+        "HYPE"
+    ],
+    "coins_file": "/home/mani/software/pb8/caches/hlcvs_data/bybit__HYPE__2024-12-05_to_2026-08-13__ea3e1d6c5d35bfb7/coins.json",
+    "content_hashes": {
+        "btc_usd_prices": "2ab99333269020eb12c1187369e4d8a291a3f09f609a4b8742a1321c34ab156a",
+        "candidate_report": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "coins": "443320afbd6439629634291a244c0780837725180019a7840243906475fc6ed0",
+        "hlcvs": "d8e535fd92867bc3e2043bd99da1b303a4ecc8eb5ce3287704e82f15b74da34d",
+        "market_specific_settings": "f4707d7ee22fe1c2e1e6553fff4fcc06e013021238982bcb9be1856932d5ba58",
+        "timestamps": "67fdef443ccdac5e26fc27f15f582ae376438397a85a402a00947b58a3acd17c"
+    },
+    "dataset_override": false,
+    "dataset_override_meta": {},
+    "dataset_override_mode": "intersection",
+    "exchange": "bybit",
+    "hlcv_cache_dir": "/home/mani/software/pb8/caches/hlcvs_data/bybit__HYPE__2024-12-05_to_2026-08-13__ea3e1d6c5d35bfb7",
+    "hlcvs_file": "/home/mani/software/pb8/caches/hlcvs_data/bybit__HYPE__2024-12-05_to_2026-08-13__ea3e1d6c5d35bfb7/hlcvs.npy.gz",
+    "manifest_file": "/home/mani/software/pb8/caches/hlcvs_data/bybit__HYPE__2024-12-05_to_2026-08-13__ea3e1d6c5d35bfb7/manifest.json",
+    "manifest_missing": false,
+    "manifest_schema_version": 1,
+    "market_specific_settings_file": "/home/mani/software/pb8/caches/hlcvs_data/bybit__HYPE__2024-12-05_to_2026-08-13__ea3e1d6c5d35bfb7/market_specific_settings.json",
+    "materialization_schema_version": 1,
+    "preparation": {
+        "source_selection": {},
+        "volume_normalization": {}
+    },
+    "requested_end_date": "2026-08-13",
+    "requested_start_date": "2021-04-20",
+    "side_membership": {
+        "long": [
+            "HYPE"
+        ],
+        "short": []
+    },
+    "timestamps_file": "/home/mani/software/pb8/caches/hlcvs_data/bybit__HYPE__2024-12-05_to_2026-08-13__ea3e1d6c5d35bfb7/timestamps.npy.gz"
+}
