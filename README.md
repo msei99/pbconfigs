@@ -23,7 +23,7 @@ If these configs, backtests, or PBGui itself save you time or help you improve y
 ## PBGui Score Overview
 
 Score version: `2`  
-Results scored: `179`
+Results scored: `181`
 
 The complete score table is available as an interactive sortable HTML page and a Markdown fallback:
 
@@ -42,6 +42,6 @@ The complete score table is available as an interactive sortable HTML page and a
 | 7.0 | [c6bfb39925522283cadaac22f01bda620f94f705e1737ce45d08bd4c8a1a811b](pbgui/configs/v7.12.0/backtests/c6bfb39925522283cadaac22f01bda620f94f705e1737ce45d08bd4c8a1a811b/bybit/2026-07-06T16_00_56) |
 | 7.0 | [d57d18d976c0c7856fec8f25af629971ba874e7ef857bc617f37b734f974b8f2](pbgui/configs/v7.12.0/backtests/d57d18d976c0c7856fec8f25af629971ba874e7ef857bc617f37b734f974b8f2/hyperliquid/2026-07-06T15_52_09) |
 | 7.0 | [7f158b42e540967b78d98852213084a3cec9b9de7e2ba99d91f75014e803e8af](pbgui/configs/v8.0.0/backtests/7f158b42e540967b78d98852213084a3cec9b9de7e2ba99d91f75014e803e8af/combined/2026-08-12T15_52_19) |
-| 7.0 | [ed6da355b5e7caa531b23fdefd3a0727a92bca8bf33f2a8b45b61830e24579bf](pbgui/configs/v8.0.0/backtests/ed6da355b5e7caa531b23fdefd3a0727a92bca8bf33f2a8b45b61830e24579bf/bybit/2026-08-11T16_43_01) |
-| 6.9 | [673fec860bfd3390efdde83ad0007f548bc9b4afa2850c2ff3d28c4a9ccb402d](pbgui/configs/v8.0.0/backtests/673fec860bfd3390efdde83ad0007f548bc9b4afa2850c2ff3d28c4a9ccb402d/bybit/2026-08-13T15_37_51) |
+| 6.9 | [ed6da355b5e7caa531b23fdefd3a0727a92bca8bf33f2a8b45b61830e24579bf](pbgui/configs/v8.0.0/backtests/ed6da355b5e7caa531b23fdefd3a0727a92bca8bf33f2a8b45b61830e24579bf/bybit/2026-08-11T16_43_01) |
+| 6.9 | [fae14b5106a725b48beb90da883d83e28f3586bbe71285913699a60cb67af275](pbgui/configs/v8.0.0/backtests/fae14b5106a725b48beb90da883d83e28f3586bbe71285913699a60cb67af275/bybit/2026-08-09T16_56_07) |
 <!-- pbgui:scores:end -->
